@@ -3,7 +3,7 @@ Der udarbejdes løbende konkrete ressourcer og værktøjer, som understøtter mo
 
 På denne side findes ressourcer, der letter brug af modelreglerne ved arbejde med et eller flere konkrete værktøjer. Der kan være tale om opsætninger, tilpasninger eller vejledninger, som alle kan hentes her.
 
-Ressource | Beskrivelse
------------- | -------------
-[FDAprofil-MDG](https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.5.0.xml)  | MDG-teknologi til Sparx EA (i test)
+Ressource | Beskrivelse | Download
+------------ | ------------- | -------------
+FDAprofil-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.5.0.xml
 
