@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<uml:Profile xmlns:uml="http://www.omg.org/spec/UML/20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmi:id="A7C82B2C-4" nsPrefix="FDAprofil" name="FDAprofil" metamodelReference="mmref01">
+	<ownedComment xmi:type="uml:Comment" xmi:id="comment01" annotatedElement="A7C82B2C-4">
+		<body> Version:1.0</body>
+	</ownedComment>
+	<packageImport xmi:id="mmref01">
+		<importedPackage href="http://www.omg.org/spec/UML/20110701"/>
+	</packageImport>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="RdfsClass" name="RdfsClass">
+		<generalization xmi:type="uml:Generalization" xmi:id="RdfsClass_RdfsResource_generalization" general="RdfsResource"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsClass-base_Class" name="base_Class" association="Class_RdfsClass">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Class"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsClass-subClassOf" name="subClassOf">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsClass-equivalentClass" name="equivalentClass">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Class_RdfsClass" name="A_Class_RdfsClass" memberEnd="extension_RdfsClass RdfsClass-base_Class">
+		<ownedEnd xmi:id="extension_RdfsClass" name="extension_RdfsClass" type="RdfsClass" isComposite="true" lower="0" upper="1" memberEnd="extension_RdfsClass RdfsClass-base_Class"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="ModelElement" name="ModelElement">
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-base_Element" name="base_Element" association="Element_ModelElement">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Element"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-label (en)" name="label (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-label (da)" name="label (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-prefLabel (en)" name="prefLabel (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-deprecatedLabel (en)" name="deprecatedLabel (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-prefLabel (da)" name="prefLabel (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-deprecatedLabel (da)" name="deprecatedLabel (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-example (en)" name="example (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-comment (en)" name="comment (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-example (da)" name="example (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-definition (en)" name="definition (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-comment (da)" name="comment (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-definition (da)" name="definition (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-applicationNote (en)" name="applicationNote (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-source" name="source">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-legalSource" name="legalSource">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-applicationNote (da)" name="applicationNote (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-altLabel (en)" name="altLabel (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-altLabel (da)" name="altLabel (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-URI" name="URI">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-isDefinedBy" name="isDefinedBy">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-wasDerivedFrom" name="wasDerivedFrom">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Element_ModelElement" name="A_Element_ModelElement" memberEnd="extension_ModelElement ModelElement-base_Element">
+		<ownedEnd xmi:id="extension_ModelElement" name="extension_ModelElement" type="ModelElement" isComposite="true" lower="0" upper="1" memberEnd="extension_ModelElement ModelElement-base_Element"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="InverseFunctionalProperty" name="InverseFunctionalProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="InverseFunctionalProperty_ObjectProperty_generalization" general="ObjectProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="RdfsResource" name="RdfsResource">
+		<generalization xmi:type="uml:Generalization" xmi:id="RdfsResource_ModelElement_generalization" general="ModelElement"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DatatypeProperty" name="DatatypeProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="DatatypeProperty_RdfsProperty_generalization" general="RdfsProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="FunctionalProperty" name="FunctionalProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="FunctionalProperty_RdfsProperty_generalization" general="RdfsProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="TransitiveProperty" name="TransitiveProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="TransitiveProperty_ObjectProperty_generalization" general="ObjectProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="InformationModel" name="InformationModel">
+		<generalization xmi:type="uml:Generalization" xmi:id="InformationModel_Model_generalization" general="Model"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="RdfsProperty" name="RdfsProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="RdfsProperty_RdfsResource_generalization" general="RdfsResource"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsProperty-base_Property" name="base_Property" association="Property_RdfsProperty">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Property"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsProperty-domain" name="domain">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsProperty-range" name="range">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsProperty-subPropertyOf" name="subPropertyOf">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="RdfsProperty-equivalentProperty" name="equivalentProperty">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Property_RdfsProperty" name="A_Property_RdfsProperty" memberEnd="extension_RdfsProperty RdfsProperty-base_Property">
+		<ownedEnd xmi:id="extension_RdfsProperty" name="extension_RdfsProperty" type="RdfsProperty" isComposite="true" lower="0" upper="1" memberEnd="extension_RdfsProperty RdfsProperty-base_Property"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Individual" name="Individual">
+		<generalization xmi:type="uml:Generalization" xmi:id="Individual_RdfsResource_generalization" general="RdfsResource"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Individual-base_InstanceSpecification" name="base_InstanceSpecification" association="InstanceSpecification_Individual">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#InstanceSpecification"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Individual-sameAs" name="sameAs">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Individual-type" name="type">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="InstanceSpecification_Individual" name="A_InstanceSpecification_Individual" memberEnd="extension_Individual Individual-base_InstanceSpecification">
+		<ownedEnd xmi:id="extension_Individual" name="extension_Individual" type="Individual" isComposite="true" lower="0" upper="1" memberEnd="extension_Individual Individual-base_InstanceSpecification"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="SymmetricProperty" name="SymmetricProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="SymmetricProperty_ObjectProperty_generalization" general="ObjectProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="ObjectProperty" name="ObjectProperty">
+		<generalization xmi:type="uml:Generalization" xmi:id="ObjectProperty_RdfsProperty_generalization" general="RdfsProperty"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="ObjectProperty-inverseOf" name="inverseOf">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="ConceptModel" name="ConceptModel">
+		<generalization xmi:type="uml:Generalization" xmi:id="ConceptModel_Model_generalization" general="Model"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Concept" name="Concept">
+		<generalization xmi:type="uml:Generalization" xmi:id="Concept_ModelElement_generalization" general="ModelElement"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Model" name="Model">
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-base_Package" name="base_Package" association="Package_Model">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Package"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-label (en)" name="label (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modelScope" name="modelScope">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-label (da)" name="label (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-responsibleEntity" name="responsibleEntity">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-publisher" name="publisher">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-approvalStatus" name="approvalStatus">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-approvedBy" name="approvedBy">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-language" name="language">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-versionInfo" name="versionInfo">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-namespace" name="namespace">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modelStatus" name="modelStatus">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-comment (en)" name="comment (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-theme" name="theme">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-comment (da)" name="comment (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-source" name="source">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-legalSource" name="legalSource">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-namespacePrefix" name="namespacePrefix">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modified" name="modified">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-wasDerivedFrom" name="wasDerivedFrom">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Package_Model" name="A_Package_Model" memberEnd="extension_Model Model-base_Package">
+		<ownedEnd xmi:id="extension_Model" name="extension_Model" type="Model" isComposite="true" lower="0" upper="1" memberEnd="extension_Model Model-base_Package"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="ClassificationModel" name="ClassificationModel">
+		<generalization xmi:type="uml:Generalization" xmi:id="ClassificationModel_Model_generalization" general="Model"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="LogicalDataModel" name="LogicalDataModel">
+		<generalization xmi:type="uml:Generalization" xmi:id="LogicalDataModel_Model_generalization" general="Model"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="OwlClass" name="OwlClass">
+		<generalization xmi:type="uml:Generalization" xmi:id="OwlClass_RdfsClass_generalization" general="RdfsClass"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="OwlClass-base_Class" name="base_Class" association="Class_OwlClass">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Class"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Class_OwlClass" name="A_Class_OwlClass" memberEnd="extension_OwlClass OwlClass-base_Class">
+		<ownedEnd xmi:id="extension_OwlClass" name="extension_OwlClass" type="OwlClass" isComposite="true" lower="0" upper="1" memberEnd="extension_OwlClass OwlClass-base_Class"/>
+	</packagedElement>
+</uml:Profile>
