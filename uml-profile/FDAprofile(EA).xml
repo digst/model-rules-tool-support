@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="A7C82B2C-4" name="FDAprofil" version="1.0" notes="FDAprofil"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="RdfsResource" alias="rdfs:Resource" notes="klassen der omfatter alt: alle andre klasser, alle individer, alle datatyper og alle egenskaber." generalizes="ModelElement" baseStereotypes="ModelElement"/>
+			<Stereotype name="OwlClass" alias="owl:Class" notes="" generalizes="RdfsClass" baseStereotypes="RdfsClass">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
+						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="RdfsProperty" alias="rdfs:Property" notes="" generalizes="RdfsResource" baseStereotypes="RdfsResource">
+				<AppliesTo>
+					<Apply type="Property">
+						<Property name="_taggroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
+						<Property name="_taggroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_taggroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="domain" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="equivalentProperty" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="range" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="subPropertyOf" type="HTTP-URI" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="ObjectProperty" alias="owl:ObjectProperty" notes="" generalizes="RdfsProperty" baseStereotypes="RdfsProperty">
+				<TaggedValues>
+					<Tag name="inverseOf" type="HTTP-URI" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="DatatypeProperty" alias="owl:DatatypeProperty" notes="" generalizes="RdfsProperty" baseStereotypes="RdfsProperty" defaultAttributeType="rdfs:Literal"/>
+			<Stereotype name="RdfsClass" alias="rdfs:Class" notes="" generalizes="RdfsResource" baseStereotypes="RdfsResource">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
+						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="equivalentClass" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="subClassOf" type="HTTP-URI" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Model" notes="">
+				<AppliesTo>
+					<Apply type="Package"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="namespace" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="namespacePrefix" type="String" description="" unit="" values="" default=""/>
+					<Tag name="label (da)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="comment (da)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="label (en)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="comment (en)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="language" type="String" description="" unit="" values="" default=""/>
+					<Tag name="responsibleEntity" type="String" description="" unit="" values="" default=""/>
+					<Tag name="publisher" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="versionInfo" type="String" description="" unit="" values="" default=""/>
+					<Tag name="modified" type="date" description="" unit="" values="" default="Type=Date;"/>
+					<Tag name="modelStatus" type="enumeration" description="" unit="" values="development,stable,withdrawn,obsolete" default=""/>
+					<Tag name="approvalStatus" type="enumeration" description="" unit="" values="not applicable,awaiting approval,approved with remarks,approved" default=""/>
+					<Tag name="approvedBy" type="String" description="" unit="" values="" default=""/>
+					<Tag name="modelScope" type="enumeration" description="" unit="" values="core model,application model" default=""/>
+					<Tag name="theme" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="legalSource" type="HTTP-URI" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="source" type="HTTP-URI" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="wasDerivedFrom" type="HTTP-URI" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="ConceptModel" notes="" generalizes="Model" baseStereotypes="Model"/>
+			<Stereotype name="LogicalDataModel" notes="" generalizes="Model" baseStereotypes="Model"/>
+			<Stereotype name="Individual" notes="" generalizes="RdfsResource" baseStereotypes="RdfsResource">
+				<AppliesTo>
+					<Apply type="InstanceSpecification"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="sameAs" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="type" type="HTTP-URI" description="" unit="" values="" default="http://www.w3.org/2002/07/owl#Thing"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="InformationModel" notes="" generalizes="Model" baseStereotypes="Model"/>
+			<Stereotype name="ClassificationModel" notes="" generalizes="Model" baseStereotypes="Model"/>
+			<Stereotype name="Concept" notes="" generalizes="ModelElement" baseStereotypes="ModelElement"/>
+			<Stereotype name="ModelElement" notes="">
+				<AppliesTo>
+					<Apply type="Element">
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
+						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="URI" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="prefLabel (da)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="altLabel (da)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="deprecatedLabel (da)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="label (da)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="definition (da)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="example (da)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="comment (da)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="applicationNote (da)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="prefLabel (en)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="altLabel (en)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="label (en)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="deprecatedLabel (en)" type="String" description="" unit="" values="" default=""/>
+					<Tag name="definition (en)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="example (en)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="comment (en)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="applicationNote (en)" type="" description="" unit="" values="" default="&lt;memo&gt;"/>
+					<Tag name="legalSource" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="source" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="wasDerivedFrom" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="isDefinedBy" type="HTTP-URI" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="FunctionalProperty" notes="" generalizes="RdfsProperty" baseStereotypes="RdfsProperty"/>
+			<Stereotype name="InverseFunctionalProperty" notes="" generalizes="ObjectProperty" baseStereotypes="ObjectProperty"/>
+			<Stereotype name="SymmetricProperty" notes="" generalizes="ObjectProperty" baseStereotypes="ObjectProperty"/>
+			<Stereotype name="TransitiveProperty" notes="" generalizes="ObjectProperty" baseStereotypes="ObjectProperty"/>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<QuickLink data="Class,ModelElement,,,,Class,ModelElement,Association,,directed,,Association to Class,TRUE,TRUE,,TRUE,,0,,,,,0&#xA;Class,ModelElement,,,,Object,Individual,Association,,from,,Association from Object,TRUE,TRUE,,TRUE,,0,,,,,0&#xA;Class,ModelElement,,,,Class,ModelElement,Generalization,,,,Generalization,TRUE,TRUE,,TRUE,,0,,,,,0&#xA;Class,ModelElement,Class,ModelElement,,,,Association,,directed,Association to,,TRUE,,,TRUE,,0,,,,,0&#xA;Class,ModelElement,Object,ModelElement,,,,Association,,from,Association from,,TRUE,,,TRUE,,0,,,,,0&#xA;Class,ModelElement,Class,ModelElement,,,,Generalization,,,Generalization,,TRUE,,,TRUE,,0,,,,,0&#xA;Class,Concept,,,,Class,Concept,Association,,undirected ,,Association to Class,TRUE,TRUE,,TRUE,,0,,,,,0&#xA;Class,Concept,,,,Class,Concept,Generalization,,,,Generalization,TRUE,TRUE,,TRUE,,0,,,,,0&#xA;Class,Concept,Class,Concept,,,,Association,,undirected ,Association to,,TRUE,,,TRUE,,0,,,,,0&#xA;Class,Concept,Class,ModelElement,,,,Generalization,,,Generalization,,TRUE,,,TRUE,,0,,,,,0&#xA;&#xA;"/>
+	</Content>
+</UMLProfile>
