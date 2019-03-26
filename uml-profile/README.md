@@ -1,4 +1,5 @@
-## FDA UML-profilen 
+FDA UML-profilen
+=======
 
 FDAprofilen er en UML-profil der implementerer netop de stereotyper og tags som skal anvendes iht. de Fællesoffentlige regler for begrebs- og datamodellering v.2.0. Den kan importeres og anvendes i UML-værktøjer der understøtter UML-profiler.
 
@@ -20,5 +21,5 @@ FDAprofilen kan anvendes i alle UML-værktøjer, der understøtter UML-profiler.
 Såfremt dit modelleringsværktøj ikke understøtter UML-profiler kan FDAprofilen opsættes manuelt ved at tilføje netop de stereotyper og tag-definitioner, som specificeres i Modelreglernes bilag "FDA-profilen".
 
 
-##NOTE: 
+## NOTE: 
 for at undgå at din browser forsøger at åbne filen from for at downloade dem skal du højreklikke på linket og vælge Gem destination som ... / Gem link som ... afhængigt af browser
