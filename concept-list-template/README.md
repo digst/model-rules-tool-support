@@ -4,9 +4,9 @@ Begrebslisteskabelonen er en skabelon der er beregnet til import i et regnearksp
 
 Skabelonen indeholder tre faner.
 
-Forretningsmetadata
-Begrebsliste DA
-Begrebsliste DA+EN
+* Forretningsmetadata
+* Begrebsliste DA
+* Begrebsliste DA+EN
  
 
 Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid udfylde de første 9 felter.  Der kan evt. være mere end en relevant juridisk kilde. Eventuelle andre relevante kilder, fx nationale eller internationale standarder, skrives i kildefeltet.
@@ -15,15 +15,15 @@ Selve begrebslisten udarbejdes enten i fanen ’Begrebsliste DA’, hvis du udel
 
 Begrebsliste DA indeholder nedenstående koloner, og hvert begreb beskrives på en linje
 
-Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
-Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
-Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
-Definition: dansk beskrivelse af betydningen af et begreb
-Juridisk kilde: reference til lovgrundlag (hjemmel)
-Kilde: reference til ressource hvorfra begrebet er afledt
-Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
-Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
-Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
+* Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
+* Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
+* Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
+* Definition: dansk beskrivelse af betydningen af et begreb
+* Juridisk kilde: reference til lovgrundlag (hjemmel)
+* Kilde: reference til ressource hvorfra begrebet er afledt
+* Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
+* Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
+* Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
  
 Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes.  
 
