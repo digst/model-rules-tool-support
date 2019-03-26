@@ -5,5 +5,5 @@ På denne side findes ressourcer, der letter brug af modelreglerne ved arbejde m
 
 Ressource | Beskrivelse | Download
 ------------ | ------------- | -------------
-FDAprofil-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.5.0.xml
+FDAprofil-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.6.0.xml
 
