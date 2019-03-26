@@ -1,7 +1,7 @@
 FDAprofil Sparx EA-pakke
 =======
 
-Modelsekretariatet har udviklet en FDAprofil-pakke af værktøjer der letter modellering efter Modelreglerne med Sparx Enterprise Architect. Pakken indeholder UML-profilen, der specificerer stereotyper og tags-definitioner.  Derudover tilpasses layout og indtastningsmuligheder, der tilføjes rapportskabeloner mm. Vi har udarbejdet 3 vejledninger til installation af Sparx EA samt til konfigurering med og brug af Plusprofil-pakken.
+Modelsekretariatet har udviklet en FDAprofil-pakke af værktøjer der letter modellering efter Modelreglerne med Sparx Enterprise Architect. Pakken indeholder UML-profilen, der specificerer stereotyper og tags-definitioner.  Derudover tilpasses layout og indtastningsmuligheder, der tilføjes rapportskabeloner mm. Vi har udarbejdet 3 vejledninger til installation af Sparx EA samt til konfigurering med og brug af FDAprofil-pakken.
 
 FDAprofil Sparx EA-pakken indholder 5 komponenter
 
