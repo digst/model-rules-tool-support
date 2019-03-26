@@ -1,5 +1,7 @@
 
-## Begrebslisteskabelon
+Begrebslisteskabelon
+=======
+
 Begrebslisteskabelonen er en skabelon der er beregnet til import i et regnearksprogram, så som MS Excel. Ved at bruge skabelonen sikrer du, at din begrebsliste overholder det format der er specificeret i de Fællesoffentlige regler for begrebs- og datamodellering.
 
 Skabelonen indeholder tre faner.
