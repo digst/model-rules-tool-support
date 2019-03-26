@@ -7,7 +7,7 @@ FDAprofil Sparx EA-pakken indholder 5 komponenter
 
 1. Begrebslisteskabelon til csv-import (xlsx-fil)
 2. MDG-teknologi (xml-fil)
-3 .Referencedata (xml-fil)
+3. Referencedata (xml-fil)
 4. Projektskabelon (eap-fil)
 5. Dialogboks (msi-fil)
 
@@ -36,7 +36,7 @@ Den består af følgende komponenter:
 * Datatyper: Modelreglernes XSD datatyper
 * Workspace-layout: Placering af vinduer som letter adgang til værktøj og tags.
 
-Konfigurering og brug af Plusprofil-MDG-teknologien er beskrevet i vejledningerne nedenfor.
+Konfigurering og brug af FDAprofil-MDG-teknologien er beskrevet i vejledningerne nedenfor.
 
  
 
@@ -55,7 +55,7 @@ Den indeholder:
 
 Projektskabelon i Sparx EAs eget filformat (eap), der automatisk knytter Plusprofil-MDG-teknologien og tilhørende referencedata til projektet.
 
-Du kan også vælge selv at knytte MDG-teknologi og referencedata til et projekt, der ikke bruger projektskabelonen. Du kan få hjælp til dette i Vejledning til brug af Plusprofil Sparx EA-pakken.
+Du kan også vælge selv at knytte MDG-teknologi og referencedata til et projekt, der ikke bruger projektskabelonen. Du kan få hjælp til dette i Vejledning til brug af FDAprofil Sparx EA-pakken.
 
  
 
@@ -63,7 +63,7 @@ Du kan også vælge selv at knytte MDG-teknologi og referencedata til et projekt
 
 Installation af dialogboksen gør det muligt at åbne et vindue, hvor netop de tagged values der skal udfyldes ifølge modelreglerne samles og vises på en nemt overskuelig måde. Desuden giver dialogboksen mulighed for at indtaste mere end en Accepterede termer (altLabel) og Frarådede termer (deprecatedLabel).
 
-Dialogboksen ligger i en msi-installationsfil installationen går i gang ved dobbeltklik. Hvis du har spørgsmål om installationen, er der yderligere information i Vejledning til konfigurering af Sparx EA med Plusprofil-pakken.
+Dialogboksen ligger i en msi-installationsfil installationen går i gang ved dobbeltklik. Hvis du har spørgsmål om installationen, er der yderligere information i Vejledning til konfigurering af Sparx EA med FDAprofil-pakken.
 
 Efter installation kan du aktiverer dialogboksen på to måder. I begge tilfælde skal du markere den pakke eller det modelelement, du ønsker at se tags for. Dernæst TRYK:
 
