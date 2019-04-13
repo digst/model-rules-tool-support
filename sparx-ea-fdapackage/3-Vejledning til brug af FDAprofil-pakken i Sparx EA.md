@@ -9,7 +9,7 @@ Vejledningen indeholder 4 dele:
 3.	Vejledning til brug af dialogboks-udvidelsen
 4.	Vejledning til brug af Vocabulary Tools-udvidelsen
 
-## 1) Trin-for-trin vejledning til modellering med MDG-teknologien
+# 1) Trin-for-trin vejledning til modellering med MDG-teknologien
 Opret ny fil
 Version 13:
 •	Klik New File
