@@ -3,11 +3,15 @@ Der udarbejdes løbende konkrete ressourcer og værktøjer, som understøtter mo
 
 På denne side findes ressourcer, der letter brug af modelreglerne ved arbejde med et eller flere konkrete værktøjer. Der kan være tale om opsætninger, tilpasninger eller vejledninger, som alle kan hentes her.
 
-Ressource | Beskrivelse | Download
+Ressource | Beskrivelse | Link
 ------------ | ------------- | -------------
-FDAprofil-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
+Begrebslisteskabelon | Skabelon til begrebsliste til import i regnearksprogram, fx MS Excel | https://github.com/digst/model-rules-tool-support/tree/master/concept-list-template
+FDAprofil | Profil til konfiguration af UML-værktøj således at stereotyper og tag-definitioner følger Modelreglerne. | https://github.com/digst/model-rules-tool-support/tree/master/uml-profile
+FDAprofil-SparxEA-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
+FDAprofil-SparxEA-pakke | Samlet pakke med ressourcer til Sparx Enterprise Architect, der letter overholdelse af modelreglerne, inkl. FDAprofil MDG |https://github.com/digst/model-rules-tool-support/tree/master/sparx-ea-fdapackage
 
-Sådan aktiveres MDG-teknologien (fjern evt. tidligere version først) 
+##Kom hurtigt i gang med Sparx EA MDG'en:
+Sådan aktiveres Sparx EA MDG-teknologien (fjern evt. tidligere version først) 
 1.	Åbn Sparx Enterprise Architect (Luk evt. startmenu)
 2.	Åbn menuen for MDG Techonolgies (v.13: Klik "CONFIGURE | Manage Technology | Advanced..." v.14: Klik "Manage" (under SPECIALIZE | Technologies) | Advanced)
 3.	Klik Add  og dernæst Add URL...
