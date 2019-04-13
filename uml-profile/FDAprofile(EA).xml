@@ -7,8 +7,8 @@
 			<Stereotype name="OwlClass" alias="owl:Class" notes="" generalizes="RdfsClass" baseStereotypes="RdfsClass">
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
 					</Apply>
 				</AppliesTo>
@@ -16,16 +16,16 @@
 			<Stereotype name="RdfsProperty" alias="rdfs:Property" notes="" generalizes="RdfsResource" baseStereotypes="RdfsResource">
 				<AppliesTo>
 					<Apply type="Property">
-						<Property name="_taggroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_taggroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_taggroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_taggroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="domain" type="HTTP-URI" description="" unit="" values="" default=""/>
-					<Tag name="equivalentProperty" type="HTTP-URI" description="" unit="" values="" default=""/>
 					<Tag name="range" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="domain" type="HTTP-URI" description="" unit="" values="" default=""/>
 					<Tag name="subPropertyOf" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="equivalentProperty" type="HTTP-URI" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="ObjectProperty" alias="owl:ObjectProperty" notes="" generalizes="RdfsProperty" baseStereotypes="RdfsProperty">
@@ -37,14 +37,14 @@
 			<Stereotype name="RdfsClass" alias="rdfs:Class" notes="" generalizes="RdfsResource" baseStereotypes="RdfsResource">
 				<AppliesTo>
 					<Apply type="Class">
-						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
 					</Apply>
 				</AppliesTo>
 				<TaggedValues>
-					<Tag name="equivalentClass" type="HTTP-URI" description="" unit="" values="" default=""/>
 					<Tag name="subClassOf" type="HTTP-URI" description="" unit="" values="" default=""/>
+					<Tag name="equivalentClass" type="HTTP-URI" description="" unit="" values="" default=""/>
 				</TaggedValues>
 			</Stereotype>
 			<Stereotype name="Model" notes="">
@@ -90,8 +90,8 @@
 			<Stereotype name="ModelElement" notes="">
 				<AppliesTo>
 					<Apply type="Element">
-						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroups" value="Identification,Danish annotations,English annotations,Provenance"/>
+						<Property name="_tagGroupings" value="URI=Identification;prefLabel (da)=Danish annotations;altLabel (da)=Danish annotations;deprecatedLabel (da)=Danish annotations;label (da)=Danish annotations;definition (da)=Danish annotations;example (da)=Danish annotations;comment (da)=Danish annotations;applicationNote (da)=Danish annotations;prefLabel (en)=English annotations;altLabel (en)=English annotations;deprecatedLabel (en)=English annotations;label (en)=English annotations;definition (en)=English annotations;example (en)=English annotations;comment (en)=English annotations;applicationNote (en)=English annotations;legalSource=Provenance;source=Provenance;isDefinedBy=Provenance;wasDerivedFrom=Provenance;"/>
 						<Property name="_tagGroupStates" value="Identification=open;Danish annotations=open;English annotations=closed;Provenance=closed"/>
 					</Apply>
 				</AppliesTo>
