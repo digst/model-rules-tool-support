@@ -1,5 +1,6 @@
 
-#Vejledning til installation af Sparx Enterprise Architect via Statens IT
+Vejledning til installation af Sparx Enterprise Architect via Statens IT
+=======
 
 Kom hurtigt i gang med at anvende værktøjet Sparx Enterprise Architect: Bestil først en installationspakke
 via Statens IT Serviceportal, installer dernæst programmet på din maskine via Statens IT Software Center,
@@ -7,7 +8,7 @@ og køb til sidst en licens og indtast licensnøglen. Licensen koster i omegnen 
 afhængig af hvor mange licenser der købes og om der vælges en ’named’ eller ’floating’ licenstype.
 (Der tages forbehold for prisændringer)
 
-##Bestil Sparx Enterprise Architect via Statens IT Serviceportal
+## estil Sparx Enterprise Architect via Statens IT Serviceportal
 1. Tilgå serviceportalen på følgende link: https://statensitprod.service-now.com/serviceportal/
 2. Vælg ’Bestil varer eller services’
 3. Vælg ’Programmer’
