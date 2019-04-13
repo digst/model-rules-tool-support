@@ -8,7 +8,7 @@ og køb til sidst en licens og indtast licensnøglen. Licensen koster i omegnen 
 afhængig af hvor mange licenser der købes og om der vælges en ’named’ eller ’floating’ licenstype.
 (Der tages forbehold for prisændringer)
 
-## Bestil Sparx Enterprise Architect via Statens IT Serviceportal
+# Bestil Sparx Enterprise Architect via Statens IT Serviceportal
 1. Tilgå serviceportalen på følgende link: https://statensitprod.service-now.com/serviceportal/
 2. Vælg ’Bestil varer eller services’
 3. Vælg ’Programmer’
@@ -17,14 +17,14 @@ afhængig af hvor mange licenser der købes og om der vælges en ’named’ ell
 6. Tilføj til kurv og afslut bestillingen
 7. Når din bestilling er godkendt vil du modtage en mail fra Statens IT Service Desk med en meddelelse om at programmet vil blive tilgængeligt som installationspakke fra Software Center
 
-## Installer Sparx Enterprise Architect via Statens IT Software Center
+# Installer Sparx Enterprise Architect via Statens IT Software Center
 8. Klik på ’Windows Start’
 9. Skriv ’software center’ i dialogboksen
 10. Tryk på retur og Software Center åbner
 11. Skriv ’sparx’ i søgefeltet øverst til højre og tryk retur
 12. Vælg ’Enterprise Architect – Install’ og klik på installer
 
-## Køb og aktiver licens til Sparx Enterprise Architect
+# Køb og aktiver licens til Sparx Enterprise Architect
 13. Tilgå www.sparxsystems.eu/ eller anden licensforhandler af Sparx Enterprise Architect
 14. Køb licens til Sparx Enterprise Architect. Vælg Corporate Edition, ‘Named’ eller ‘Floating’
 15. Du modtager licensen per mail
