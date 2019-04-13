@@ -42,7 +42,7 @@ Version 14:
 (Der oprettes en ny skabelonpakke med vejledningsdiagram og tre forskellige modeltyper)
 Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales det at ekstrafunktionerne (rapportskabeloner, importspecifikationer og scripts) importeres i projektet.
 
-Importér ekstrafunktioner som referencedata i projektet (anbefales):
+## Importér ekstrafunktioner som referencedata i projektet (anbefales):
 Version 13 og 14:
 1.	Klik CONFIGURE | Transfer | Import Reference Data
 2.	Klik Select File og vælg Referencedata.xml-filen fra FDAprofil-pakken
@@ -51,7 +51,7 @@ Version 13 og 14:
 Nu er du klar til at tilføje modelelementer og angive metadata 
 
 
-Tilføj modelelementer og tilføj metadata (tags)
+## Tilføj modelelementer og tilføj metadata (tags)
 1.	Dobbeltklik på modeldiagrammet og træk elementer og relationer fra værktøjskassen til diagrammet 
 2.	Udfyld de nødvendige tags på elementerne (klasser, associationsender, attributter, og objekter). Klik på det pågældende element og udfyld de relevante tag values i ‘Tagged Values’-vinduet 
 3.	Udfyld de nødvendige tags på modellen (pakken). Klik på den pågældende pakke og udfyld de relevante tag values i ‘Tagged Values’-vinduet 
@@ -60,7 +60,7 @@ Har du installeret FDAprofil-dialogboks-tilføjelsen anvender man blot genvejen 
 Har man hverken installeret FDAprofil Workspace-layoutet eller FDA-profildialogboksen
 skal man dobbeltklikke på elementet/modellen for at tilføje indhold til taggene.
 
-Udskriv dokumentation vha. rapportskabeloner
+## Udskriv dokumentation vha. rapportskabeloner
 Version 13 & 14:
 1)	Tryk på F8
 2)	Åbn valglisten Template 
@@ -69,7 +69,7 @@ Version 13 & 14:
 5)	Klik på Generate
 
  
-Eksporter UML-model (til xmi-format)
+## Eksporter UML-model (til xmi-format)
 Følg disse trin for at eksportere en UML-model (til xmi-format)
 
 Version 13:
@@ -86,7 +86,7 @@ Version 14:
 4)	Angiv filnavn og placering
 5)	Klik Export
 
-Importer UML-model (i xmi-format)
+## Importer UML-model (i xmi-format)
 Version 13:
 Følg disse trin for at importere en UML-model (i xmi-format) til et eksisterende EA-projekt
 1)	Højreklik i Project Browser vinduet
@@ -102,7 +102,7 @@ Version 14:
 4)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
 5)	Klik på Import
 
-Genbrug modelelementer
+## Genbrug modelelementer
 
 Følg disse trin for at genbruge et eller flere elementer fra en importeret UML-model
 1.	Naviger hen til den relevante model (pakke) i Project Browseren der skal genbruges fra
@@ -118,7 +118,7 @@ Version 13:
 Copy / Paste > Paste Element(s) from Clipboard 
 Elementet duplikeres og kan genbruges til en bestemt anvendelse, men identifikatoren (URIen) gør det muligt at opnå sporbarhed på tværs af organisationer og anvendte modelleringsværktøjer.
 
-Masseopdatering af elementer
+## Masseopdatering af elementer
 Man kan tilføje yderligere funktionalitet til Sparx Enterprise Architect ved at importere en fil med funktioner der kan masseopdatere modellens indhold og deres tilhørende tags, dvs. klasser, objekter, attributter og associationsender.
 
 Herefter har man flere muligheder:
@@ -139,7 +139,7 @@ a.	I EA 13: menupunktet Scripts
 b.	I EA 14: Specialize|Scripts
 3)	Klik på det relevante script og elementerne opdateres
  
-## 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
+# 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
 Følgende vejledning forudsætter at Projektskabelonen anvendes, eller at du har tilknyttet MDG-teknologien og referencedata til dit projekt. 
 Anvend skabelon til csv-import. Indholdet af Begrebsliste DA eller Begrebsliste DA+EN kopieres med copy+paste ind i skabelonen. Det er ok, hvis der er felter der er uudfyldte og/eller det kun er den danske del (og den sprogneutrale proveniensdel) der er udfyldte.  Evt. uudfyldte rækker slettes dog, da de eller bliver til elementer (uden) data i Sparx EA.
 Begrebslisten skalt gemmes i en fil af typen CSV (semikolonsepareret), som skal have UTF-8 kodning for at de danske specialtegn ‘æøå’ kan bibeholdes. Da regnearksprogrammer (oftest) ikke kan gemme i denne kodning, er det være nødvendigt at ændre kodning i en teksteditor.
@@ -166,7 +166,7 @@ Til sidst gør du følgende i Sparx EA (version 13 & 14):
 
 Bemærk at der vil optræde to 'kendte fejl', som skyldes at overskrifterne ikke fjernes, men dette har ingen betydningen for importen
  
-## 3) Vejledning til brug af FDAprofil-dialogboksudvidelsen
+# 3) Vejledning til brug af FDAprofil-dialogboksudvidelsen
 
 Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values for modeller og modelelementer. Se evt. Vejledning til konfigurering af Sparx Enterprise Architect med Plusprofil-pakken for information om hvordan du installerer dialogboksen.
  
@@ -179,7 +179,7 @@ Dialogboksen kan aktiveres på to måder. I begge tilfælde skal du markerer rel
  
 Bemærk: Vi anbefaler at du kun har en instans af Sparx EA åben når du bruger dialogboksen, da den kan opføre sig uforudsigeligt ved flere instanser. 
  
-## 4) Vejledning til brug af Plusprofil-Vocabulary Tools- udvidelsen
+# 4) Vejledning til brug af Plusprofil-Vocabulary Tools- udvidelsen
 
 Ved anvendelse af Vocabulary Tools udvidelsen kan man:
 •	Importere en OWL/RDF fil
