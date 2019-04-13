@@ -190,8 +190,8 @@ Ved anvendelse af Vocabulary Tools udvidelsen kan man:
 Disse funktioner kan tilgås ved at 
 1.	Højreklikke på en model, 
 2.	Vælge menupunktet
-a)	EA 13: Extensions
-b)	EA 14: Specialize
+      1.	EA 13: Extensions
+      2.	EA 14: Specialize
 3.	Vælge Vocabulary Tools og den relevante funktion
 
 (Nærmere vejledning til brug af de forskellige funktioner herunder følger)
