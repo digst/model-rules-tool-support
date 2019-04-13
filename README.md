@@ -10,8 +10,8 @@ FDAprofil-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/S
 Sådan aktiveres MDG-teknologien (fjern evt. tidligere version først) 
 1.	Åbn Sparx Enterprise Architect (Luk evt. startmenu)
 2.	Åbn menuen for MDG Technolgies
-2.a	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
-2.b	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
+    a	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
+    b	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
 3.	Klik Add  og dernæst Add URL...
 5.	Indsæt denne sti: https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml   
 6.	Klik Ok (Og tjek at FDA MDG-teknologien nu har fået et flueben i oversigten)
