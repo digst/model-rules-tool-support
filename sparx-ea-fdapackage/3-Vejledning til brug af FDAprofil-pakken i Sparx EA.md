@@ -10,34 +10,33 @@ Vejledningen indeholder 4 dele:
 4.	Vejledning til brug af Vocabulary Tools-udvidelsen
 
 # 1) Trin-for-trin vejledning til modellering med MDG-teknologien
-Opret ny fil
-* Version 13:
-  * Klik New File
-  * Angiv filnavn
-  * Klik Gem
-* Version 14:
-  * Klik på Sparx-logoet øverst til højre
-  * Klik New Project…
-  * Angiv filnavn og placering 
-  * Klik Gem
+
+Opret ny fil i version 13:
+* Klik New File
+* Angiv filnavn
+* Klik Gem
+
+Opret ny fil i version 14:
+* Klik på Sparx-logoet øverst til højre
+* Klik New Project…
+* Angiv filnavn og placering 
+* Klik Gem
 
 ## Opret modelprojekt (med Model Wizard)
-Version 13:
-•	Klik Design
-•	Klik Model Wizard
-•	Klik Others (under Technology)
-•	Sæt flueben "FDAprofil (UML): Opret samlet FDAprofilpakke"
-Opret SAMLET projektpakke 
-•	Klik OK 
-Version 14:
-•	Klik Design
-•	Klik på pilen ved Insert ▼
-•	Vælg Insert Using Model Wizard
-•	Scroll ned til FDAprofilen
-•	Vælg "FDAprofil (UML): Opret samlet FDAprofilpakke"
-•	Klik Create Pattern(s)
-•	Luk evt Model Wizard
+Opret SAMLET projektpakke i version 13:
+* Klik Design
+* Klik Model Wizard
+* Klik Others (under Technology)
+* Sæt flueben "FDAprofil (UML): Opret samlet FDAprofilpakke"
 
+Opret SAMLET projektpakke i version 14:
+* Klik Design
+* Klik på pilen ved Insert ▼
+* Vælg Insert Using Model Wizard
+* Scroll ned til FDAprofilen
+* Vælg "FDAprofil (UML): Opret samlet FDAprofilpakke"
+* Klik Create Pattern(s)
+* Luk evt Model Wizard
 
 (Der oprettes en ny skabelonpakke med vejledningsdiagram og tre forskellige modeltyper)
 Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales det at ekstrafunktionerne (rapportskabeloner, importspecifikationer og scripts) importeres i projektet.
@@ -87,14 +86,16 @@ Version 14:
 5)	Klik Export
 
 ## Importer UML-model (i xmi-format)
-Version 13:
 Følg disse trin for at importere en UML-model (i xmi-format) til et eksisterende EA-projekt
+
+Version 13:
 1)	Højreklik i Project Browser vinduet
 2)	Klik på Import Model from xmi…
 3)	Vælg placering af modellen (ud for Package)
 4)	Naviger hen til den pågældende xmi-fil der skal importeres (ud for Filename)
 5)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
 6)	Klik på Import
+
 Version 14:
 1)	Klik Publish|Import XMI|Import Model XMI
 2)	Vælg placering af modellen (ud for Package)
@@ -103,7 +104,6 @@ Version 14:
 5)	Klik på Import
 
 ## Genbrug modelelementer
-
 Følg disse trin for at genbruge et eller flere elementer fra en importeret UML-model
 1.	Naviger hen til den relevante model (pakke) i Project Browseren der skal genbruges fra
 2.	Marker den eller de klasser der skal genbruges i Project Browseren
@@ -167,7 +167,6 @@ Til sidst gør du følgende i Sparx EA (version 13 & 14):
 Bemærk at der vil optræde to 'kendte fejl', som skyldes at overskrifterne ikke fjernes, men dette har ingen betydningen for importen
  
 # 3) Vejledning til brug af FDAprofil-dialogboksudvidelsen
-
 Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values for modeller og modelelementer. Se evt. Vejledning til konfigurering af Sparx Enterprise Architect med Plusprofil-pakken for information om hvordan du installerer dialogboksen.
  
 Der er to udgaver af dialogboksen. De indeholder begge de samme felter og giver mulighed for redigering af samme data. Den ene version, som ses ovenfor, anvender danske betegnelser for felterne, svarende til dem der er anvendt i Begrebslisteskabelonen. Den anden anvender standardiserede UML-tags, som også anvendes internationalt. Disse betegnelser er på engelsk.
@@ -180,12 +179,11 @@ Dialogboksen kan aktiveres på to måder. I begge tilfælde skal du markerer rel
 Bemærk: Vi anbefaler at du kun har en instans af Sparx EA åben når du bruger dialogboksen, da den kan opføre sig uforudsigeligt ved flere instanser. 
  
 # 4) Vejledning til brug af Plusprofil-Vocabulary Tools- udvidelsen
-
 Ved anvendelse af Vocabulary Tools udvidelsen kan man:
-•	Importere en OWL/RDF fil
-•	Eksportere et vokabular på niveau 3 til en OWL/RDF Fil
-•	Tilføje en værktøjskasse med en oversigt over samtlige genbrugelige RDF elementer
-•	Aktivere en RDF-guide oprettelse og genbrug af egenskaber (datatype- og objektegenskaber)
+* Importere en OWL/RDF fil
+* Eksportere et vokabular på niveau 3 til en OWL/RDF Fil
+* Tilføje en værktøjskasse med en oversigt over samtlige genbrugelige RDF elementer
+* Aktivere en RDF-guide oprettelse og genbrug af egenskaber (datatype- og objektegenskaber)
 
 Disse funktioner kan tilgås ved at 
 1.	Højreklikke på en model, 
