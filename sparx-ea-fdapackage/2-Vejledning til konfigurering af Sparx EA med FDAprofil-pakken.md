@@ -3,10 +3,10 @@ Konfigurering af Sparx Enterprise Architect med FDAprofil-pakken
 
 Følgende forudsætter at Sparx EA version 13 er installeret på maskinen . Se evt. Vejledning til installation af Sparx Enterprise Architect via Statens IT eller køb det på http://www.sparxsystems.eu/. Desuden forudsættes at du har hentet FDAprofil Sparx EA-pakken.
 
-## Trin-for-trin konfigurering af Sparx EA med MDG-teknologi 
+# Trin-for-trin konfigurering af Sparx EA med MDG-teknologi 
 Sådan konfigurerer du Sparx Enterprise Architect med MDG-teknologi samt anbefalede indstillinger
 
-Aktivering af MDG-teknologi (fjern evt. tidligere version først - se note 1) 
+## Aktivering af MDG-teknologi (fjern evt. tidligere version først - se note) 
 1.	Åbn Sparx Enterprise Architect (Luk evt. startmenu)
 2.	Åbn menuen for MDG Technolgies
 a.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
@@ -17,12 +17,13 @@ b.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
 6.	Klik Ok (Og tjek at FDAprofil MDG-teknologien nu har fået et flueben i oversigten)
 7.	Klik OK og teknologien aktiveres
 
-Deaktivér MDG-teknologier som ikke anvendes (anbefales):
+NOTE: MDG-filer gemmes lokalt på maskinen her (og kan slettes manuelt herfra også): C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
+
+## Deaktivér MDG-teknologier som ikke anvendes (anbefales):
 1.	Åbn menuen for MDG Technologies
 a.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
 b.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
-2.	Klik None og sæt et flueben ud for teknologierne FDAprofil,  
-samt evt. Basic UML 2 Technology og andre teknologier der anvendes 
+2.	Klik None og sæt et flueben ud for teknologierne FDAprofil,  samt evt. Basic UML 2 Technology og andre teknologier der anvendes 
 3.	Klik OK
 
 Nu er opsætningen af MDGen fuldført. 
@@ -31,13 +32,11 @@ Den tilhørende referencedatafil skal importeres specifik til hvert projekt.
 Se derudover eventuelt dokumentet Tips og tricks til UML-modellering i Sparx Enterprise Architect:
 https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit?usp=sharing
  
-## Trin-for-trin installation af Plusprofil-dialogboksen:
+# Trin-for-trin installation af Plusprofil-dialogboksen:
 
 1.	Afinstaller evt. tidligere versioner af Plus/FDAprofil-dialogboksen – se separat vejledning herunder
 2.	Dobbeltklik på dialogboks-filen.
-3.	Klik på Kør. Læs licensaftalen og sæt flueben ud for ’I accept the terms in the License Agreement’ og 
-Klik på Install
-  
+3.	Klik på Kør. Læs licensaftalen og sæt flueben ud for ’I accept the terms in the License Agreement’ og Klik på Install
 4.	Vent og tilføjelsen installeres…
   
 ## Vejledning til af installation af dialogboks
@@ -48,4 +47,4 @@ Klik på Install
 N.B. Det er også muligt at fjerne dialogboks-tilføjelsen ved at slette dll.filen direkte i AppData-mappen
 C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
 
-NOTE 1: MDG-filer gemmes lokalt på maskinen her (og kan slettes manuelt herfra også): C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
+
