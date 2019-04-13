@@ -21,8 +21,8 @@ NOTE: MDG-filer gemmes lokalt på maskinen her (og kan slettes manuelt herfra og
 
 ## Deaktivér MDG-teknologier som ikke anvendes (anbefales):
 1.	Åbn menuen for MDG Technologies
-a.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
-b.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
+      1.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
+      2.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
 2.	Klik None og sæt et flueben ud for teknologierne FDAprofil,  samt evt. Basic UML 2 Technology og andre teknologier der anvendes 
 3.	Klik OK
 
