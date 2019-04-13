@@ -10,26 +10,29 @@ Vejledningen indeholder 4 dele:
 4.	Vejledning til brug af Vocabulary Tools-udvidelsen
 
 # 1) Trin-for-trin vejledning til modellering med MDG-teknologien
+Følg disse trin for at oprette en ny projektfil 
 
-Opret ny fil i version 13:
+Version 13:
 * Klik New File
 * Angiv filnavn
 * Klik Gem
 
-Opret ny fil i version 14:
+Version 14:
 * Klik på Sparx-logoet øverst til højre
 * Klik New Project…
 * Angiv filnavn og placering 
 * Klik Gem
 
 ## Opret modelprojekt (med Model Wizard)
-Opret SAMLET projektpakke i version 13:
+Følg disse trin for at iorette en samlet projektpakke med forskellige FDA-modelskabeloner
+
+Version 13:
 * Klik Design
 * Klik Model Wizard
 * Klik Others (under Technology)
 * Sæt flueben "FDAprofil (UML): Opret samlet FDAprofilpakke"
 
-Opret SAMLET projektpakke i version 14:
+Version 14:
 * Klik Design
 * Klik på pilen ved Insert ▼
 * Vælg Insert Using Model Wizard
@@ -49,7 +52,6 @@ Version 13 og 14:
 4.	Klik på Import og funktionerne er nu tilgængelige
 Nu er du klar til at tilføje modelelementer og angive metadata 
 
-
 ## Tilføj modelelementer og tilføj metadata (tags)
 1.	Dobbeltklik på modeldiagrammet og træk elementer og relationer fra værktøjskassen til diagrammet 
 2.	Udfyld de nødvendige tags på elementerne (klasser, associationsender, attributter, og objekter). Klik på det pågældende element og udfyld de relevante tag values i ‘Tagged Values’-vinduet 
@@ -66,7 +68,6 @@ Version 13 & 14:
 3)	Vælg den relevante rapportskabelon (Eks. FDAprofil Begrebsliste under Technology Templates/User Templates)
 4)	Angiv filplacering og navn under ”Output to File” (Klik ”…”)
 5)	Klik på Generate
-
  
 ## Eksporter UML-model (til xmi-format)
 Følg disse trin for at eksportere en UML-model (til xmi-format)
