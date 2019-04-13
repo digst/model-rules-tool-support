@@ -32,14 +32,15 @@ Den tilhørende referencedatafil skal importeres specifik til hvert projekt.
 Se derudover eventuelt dokumentet Tips og tricks til UML-modellering i Sparx Enterprise Architect:
 https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit?usp=sharing
  
-# Trin-for-trin installation af Plusprofil-dialogboksen:
+# Trin-for-trin installation/afinstallation af Plusprofil-dialogboksen:
 
+# Vejledning til installation af dialogboks
 1.	Afinstaller evt. tidligere versioner af Plus/FDAprofil-dialogboksen – se separat vejledning herunder
 2.	Dobbeltklik på dialogboks-filen.
 3.	Klik på Kør. Læs licensaftalen og sæt flueben ud for ’I accept the terms in the License Agreement’ og Klik på Install
 4.	Vent og tilføjelsen installeres…
   
-## Vejledning til af installation af dialogboks
+# Vejledning til afinstallation af dialogboks
 *	Åbn Kontrolpanelet/Control Panel  
 *	Vælg”Fjern et program/Remove program”
 *	Marker ”Enterprise architect – FDAprofil Add-In” på programlisten og klik ”Fjern/Uninstall”
