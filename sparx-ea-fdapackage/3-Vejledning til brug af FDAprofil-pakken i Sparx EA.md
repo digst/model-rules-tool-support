@@ -11,15 +11,15 @@ Vejledningen indeholder 4 dele:
 
 # 1) Trin-for-trin vejledning til modellering med MDG-teknologien
 Opret ny fil
-Version 13:
-•	Klik New File
-•	Angiv filnavn
-•	Klik Gem
-Version 14:
-•	Klik på Sparx-logoet øverst til højre
-•	Klik New Project…
-•	Angiv filnavn og placering 
-•	Klik Gem
+* Version 13:
+ * Klik New File
+ * Angiv filnavn
+ * Klik Gem
+* Version 14:
+ * Klik på Sparx-logoet øverst til højre
+ * Klik New Project…
+ * Angiv filnavn og placering 
+ * Klik Gem
 
 ## Opret modelprojekt (med Model Wizard)
 Version 13:
