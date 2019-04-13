@@ -10,7 +10,7 @@ FDAprofil | Profil til konfiguration af UML-værktøj således at stereotyper og
 FDAprofil-SparxEA-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
 FDAprofil-SparxEA-pakke | Samlet pakke med ressourcer til Sparx Enterprise Architect, der letter overholdelse af modelreglerne, inkl. FDAprofil MDG |https://github.com/digst/model-rules-tool-support/tree/master/sparx-ea-fdapackage
 
-##Kom hurtigt i gang med Sparx EA MDG'en:
+## Kom hurtigt i gang med Sparx EA MDG'en:
 Sådan aktiveres Sparx EA MDG-teknologien (fjern evt. tidligere version først) 
 1.	Åbn Sparx Enterprise Architect (Luk evt. startmenu)
 2.	Åbn menuen for MDG Techonolgies (v.13: Klik "CONFIGURE | Manage Technology | Advanced..." v.14: Klik "Manage" (under SPECIALIZE | Technologies) | Advanced)
