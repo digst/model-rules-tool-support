@@ -41,9 +41,9 @@ Klik på Install
 4.	Vent og tilføjelsen installeres…
   
 ## Vejledning til af installation af dialogboks
-•	Åbn Kontrolpanelet/Control Panel  
-•	Vælg”Fjern et program/Remove program”
-•	Marker ”Enterprise architect – FDAprofil Add-In” på programlisten og klik ”Fjern/Uninstall”
+*	Åbn Kontrolpanelet/Control Panel  
+*	Vælg”Fjern et program/Remove program”
+*	Marker ”Enterprise architect – FDAprofil Add-In” på programlisten og klik ”Fjern/Uninstall”
  
 N.B. Det er også muligt at fjerne dialogboks-tilføjelsen ved at slette dll.filen direkte i AppData-mappen
 C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
