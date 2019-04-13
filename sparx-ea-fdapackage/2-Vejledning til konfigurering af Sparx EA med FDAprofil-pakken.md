@@ -6,7 +6,7 @@ Følgende forudsætter at Sparx EA version 13 er installeret på maskinen . Se e
 ## Trin-for-trin konfigurering af Sparx EA med MDG-teknologi 
 Sådan konfigurerer du Sparx Enterprise Architect med MDG-teknologi samt anbefalede indstillinger
 
-Aktivering af MDG-teknologi (fjern evt. tidligere version først) 
+Aktivering af MDG-teknologi (fjern evt. tidligere version først - se note 1) 
 1.	Åbn Sparx Enterprise Architect (Luk evt. startmenu)
 2.	Åbn menuen for MDG Technolgies
 a.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
@@ -47,3 +47,5 @@ Klik på Install
  
 N.B. Det er også muligt at fjerne dialogboks-tilføjelsen ved at slette dll.filen direkte i AppData-mappen
 C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
+
+NOTE 1: MDG-filer gemmes lokalt på maskinen her (og kan slettes manuelt herfra også): C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
