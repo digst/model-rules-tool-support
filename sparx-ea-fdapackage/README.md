@@ -13,7 +13,7 @@ FDAprofil Sparx EA-pakken indholder 5 komponenter
 
 Du kan hente pakken samt tilhørende vejedninger ovenfor og gå i gang eller du kan læse mere om de enkelte komponenter herunder.
 
-Bemærk: I forhold til generel vejledning til Sparx EA henviser Modelsekretariatet til deres samling af brugermanualer her: https://sparxsystems.com.au/resources/user-guides/. Vi kan dog supplere med små tips og tricks til UML-modellerin i Sparx EA her: https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit#
+Bemærk: I forhold til generel vejledning til Sparx EA henviser Modelsekretariatet til deres samling af brugermanualer her: https://sparxsystems.com.au/resources/user-guides/. Vi kan dog supplere med små tips og tricks til UML-modellering i Sparx EA her: https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit#
  
 
 ## Begrebslisteskabelon til csv-import
