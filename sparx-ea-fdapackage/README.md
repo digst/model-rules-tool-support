@@ -11,7 +11,9 @@ FDAprofil Sparx EA-pakken indholder 5 komponenter
 4. Projektskabelon (eap-fil)
 5. Dialogboks (msi-fil)
 
-Du kan hente pakken samt tilhørende vejedninger her og gå i gang eller du kan læse mere om de enkelte komponenter her.
+Du kan hente pakken samt tilhørende vejedninger ovenfor og gå i gang eller du kan læse mere om de enkelte komponenter herunder.
+
+Bemærk, i forhold til generel vejledning til Sparx EA henviser vi til deres samling af brugermanualer her: https://sparxsystems.com.au/resources/user-guides/. Vi kan dog supplere med små tips og tricks til UML-modellerin i Sparx EA her: https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit#
  
 
 ## Begrebslisteskabelon til csv-import
