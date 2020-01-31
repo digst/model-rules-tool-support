@@ -5,7 +5,7 @@ Vejledning til installation af Sparx Enterprise Architect via Statens IT
 Kom hurtigt i gang med at anvende værktøjet Sparx Enterprise Architect: Bestil først en installationspakke
 via Statens IT Serviceportal, installer dernæst programmet på din maskine via Statens IT Software Center,
 og køb til sidst en licens og indtast licensnøglen. Licensen koster i omegnen af 1.400 - 2.400 kr. per bruger
-afhængig af hvor mange licenser der købes og om der vælges en ’named’ eller ’floating’ licenstype.
+afhængig af hvor mange licenser der købes og hvilken licenstype der vælges.
 (Der tages forbehold for prisændringer)
 
 # Bestil Sparx Enterprise Architect via Statens IT Serviceportal
@@ -26,13 +26,16 @@ afhængig af hvor mange licenser der købes og om der vælges en ’named’ ell
 
 # Køb og aktiver licens til Sparx Enterprise Architect
 13. Tilgå www.sparxsystems.eu/ eller anden licensforhandler af Sparx Enterprise Architect
-14. Køb licens til Sparx Enterprise Architect. Vælg Corporate Edition, ‘Named’ eller ‘Floating’
+14. Køb licens til Sparx Enterprise Architect. Vælg Corporate Edition, ‘Named’ eller evt. ‘Floating’*
 15. Du modtager licensen per mail
 16. Kør programmet Sparx Enterprise Architect første gang ved at dobbeltklikke på det nye ikon på
 skrivebordet ’Enterprise Architect’
 17. Ved første start skal licensnøglen indtastes - Klik på ’Add Key’
-18. Vælg ’Enter Private Key’ (Named license) eller ’Enter Shared Key’ (Floating license) - Udfyld med navn og virksomhed og indkøbt licenskode
+18. Vælg ’Enter Private Key’ (Named license) (eller ’Enter Shared Key’ (Floating license)) - Udfyld med navn og virksomhed og indkøbt licenskode
 19. Licensen installeret - Klik ’Close’
 20. Programmet er installeret og klar til brug
 
 Vejledningen er udarbejdet af Digitaliseringsstyrelsen, arkitektur@digst.dk. 
+
+
+*Brug af 'Floating' licens kræver nogle ekstra trin, herunder installation af en 'key store', og vil på en standard SIA pc give nogle udfordringer ift. adgangsrettigheder. Digitaliseringsstyrelsen har ikke selv erfaringer med 'Floating' licenser, men kan oplyse at det i hvert fald kræver administratorrettigheder at registrere licensnøglen, samt at adgangsrettigheder til filen C:\Program Files (x86)\Sparx Systems\Keystore\Service\sskeys.dat skal ændres for at kunne tilgås med en almindelig b-konto.
