@@ -148,7 +148,7 @@ Begrebslisten skalt gemmes i en fil af typen CSV (semikolonsepareret), som skal 
 Bruger du Microsoft Excel (version 2010) gør du det således:
 1.	Klik Filer
 2.	Klik Gem som..
-3.	Vælg filtype CSV (semikolonsepareret) (*.csv)
+3.	Vælg filtype CSV (semikolonsepareret) (*.csv) (OBS Excel kan gemme i tre forskellige .csv-formater, vælg semikolonsepareret)
 4.	Klik Gem (og efterfølgende Ja i dialogboksen)
 
 Dernæst gør du følgende i Notesblok (eller anden plain text-editor):
