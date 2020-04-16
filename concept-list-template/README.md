@@ -26,6 +26,7 @@ Begrebsliste DA indeholder nedenstående koloner, og hvert begreb beskrives på 
 * Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
 * Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
 * Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
+* Identifikator: en fuldt kvalificeret HTTP-URI som identifikator.
  
 Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes.  
 
