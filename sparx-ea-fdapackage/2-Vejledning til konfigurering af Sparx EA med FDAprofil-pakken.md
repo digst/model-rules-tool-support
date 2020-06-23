@@ -11,6 +11,7 @@ Sådan konfigurerer du Sparx Enterprise Architect med MDG-teknologi samt anbefal
 2.	Åbn menuen for MDG Technolgies
       1.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
       2.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
+      3.    I version 15: Klik Manage-Tech (under SPECIALIZE | Technologies) | Advanced
 3.	Klik Add  
 4.	Vælg Add URL...
 5.	Indsæt denne sti: https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml  
@@ -36,7 +37,7 @@ https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/
 
 # Vejledning til installation af dialogboks
 1.	Afinstaller evt. tidligere versioner af Plus/FDAprofil-dialogboksen – se separat vejledning herunder
-2.	Dobbeltklik på dialogboks-filen.
+2.	Dobbeltklik på dialogboks-filen. (Windows kan finde på at give en advarsel fordi udgiveren er ukendt - det betyder ikke at der er noget galt med filen)
 3.	Klik på Kør. Læs licensaftalen og sæt flueben ud for ’I accept the terms in the License Agreement’ og Klik på Install
 4.	Vent og tilføjelsen installeres…
   
