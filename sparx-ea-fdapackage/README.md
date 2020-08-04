@@ -77,7 +77,7 @@ Efter installation kan du aktiverer dialogboksen på to måder. I begge tilfæld
 eller åbn Extend-menuen, og klik Plusprofil Editing Window, og dernæst enten Open Danish Editing Window Eller Open English Editing Window
 
 ### RDF Vocabulary Tools (Opdatering udestår)
-
+(RDF/Niv 3 blev fjernet i version 2.0 af modelreglerne for at blive tilføjet efterfølgende som et separat modul på et senere tidspunkt, derfor kan RDF Vocabulary Tools-funktionaliteten alene tilgås via Plusprofil-MDG'en fra version 1.0 af Modelreglerne (url til MDG: https://data.gov.dk/tool/SparxMDG/Plusprofil-MDG_v0.11.1.xml)
 'Vocabulary Tools' funktionaliteten gør det muligt at modellere med RDF i Sparx EA, men den har også en række begrænsninger på grund af de mange forskellige måder hvorpå et vokabular kan udtrykkes i RDF/XML, så det er med disse forbehold at funktionaliteten kan anvendes. Det anbefales at lade importfilen validere af W3Cs RDF Validator for at udelukke eventuelle mangler i inputfilen. Har man alene en TTL-fil kan denne evt. konverteres til RDF/XML med EasyRDF-converter eller lignende.
 
 I forhold til eksportfunktionaliteten skal man også være opmærksom på at der skal angives prefix, namespace og navn for de vokabularer man importerer/anvender i et notesfelt på modellens diagram, da disse oplysninger anvendes til genereringen af RDF/XML'en. Noten struktureres således: Prefix [TAB] Namespace [TAB] Navn 
