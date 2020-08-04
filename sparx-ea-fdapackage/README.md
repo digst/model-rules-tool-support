@@ -77,21 +77,19 @@ Efter installation kan du aktiverer dialogboksen på to måder. I begge tilfæld
 eller åbn Extend-menuen, og klik Plusprofil Editing Window, og dernæst enten Open Danish Editing Window Eller Open English Editing Window
 
 ### RDF Vocabulary Tools (Opdatering udestår)
-(RDF/Niv 3 blev fjernet i version 2.0 af modelreglerne for at blive tilføjet efterfølgende som et separat modul på et senere tidspunkt, derfor kan RDF Vocabulary Tools-funktionaliteten alene tilgås via Plusprofil-MDG'en fra version 1.0 af Modelreglerne (url til MDG: https://data.gov.dk/tool/SparxMDG/Plusprofil-MDG_v0.11.1.xml)
 'Vocabulary Tools' funktionaliteten gør det muligt at modellere med RDF i Sparx EA, men den har også en række begrænsninger på grund af de mange forskellige måder hvorpå et vokabular kan udtrykkes i RDF/XML, så det er med disse forbehold at funktionaliteten kan anvendes. Det anbefales at lade importfilen validere af W3Cs RDF Validator for at udelukke eventuelle mangler i inputfilen. Har man alene en TTL-fil kan denne evt. konverteres til RDF/XML med EasyRDF-converter eller lignende.
 
 I forhold til eksportfunktionaliteten skal man også være opmærksom på at der skal angives prefix, namespace og navn for de vokabularer man importerer/anvender i et notesfelt på modellens diagram, da disse oplysninger anvendes til genereringen af RDF/XML'en. Noten struktureres således: Prefix [TAB] Namespace [TAB] Navn 
 
 Ved anvendelse af Vocabulary Tools udvidelsen kan man:
-
 - Importere et RDF vokabular udtrykt som en OWL/RDF fil (Import OWL/RDF File)
 - Eksportere et RDF vokabular til en OWL/RDF Fil (Export OWL/RDF File)
 - Tilføje en værktøjskasse med en oversigt over samtlige genbrugelige RDF elementer i repositoriet (til lokal brug) (Show Vocabulary Toolbox)
 - Aktivere en RDF-guide oprettelse og genbrug af egenskaber (datatype- og objektegenskaber) (til lokal brug) (Create Properties/Attributes)
 
 Disse funktioner kan tilgås ved at 
-
 1. Højreklikke på en model, 
 2. Vælge menupunktet Extensions
 3. Vælge Vocabulary Tools og den relevante funktion
  
+OBS: (RDF/Niv 3 blev fjernet i version 2.0 af modelreglerne for at blive tilføjet efterfølgende som et separat modul på et senere tidspunkt. RDF Vocabulary Tools-funktionaliteten kan pt. kun tilgås ved at tilføje Plusprofil-MDG'en fra version 1.0 af Modelreglerne (url til MDG: https://data.gov.dk/tool/SparxMDG/Plusprofil-MDG_v0.11.1.xml)
