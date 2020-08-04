@@ -9,7 +9,7 @@ FDAprofil Sparx EA-pakken indholder 5 komponenter
 2. MDG-teknologi (xml-fil) https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
 3. Referencedata (xml-fil)
 4. Projektskabelon (eap-fil)
-5. Dialogboks (msi-fil)
+5. Dialogboks & RDF Vocabulary Tools Addin (msi-fil)
 
 Du kan hente pakken samt tilhørende vejedninger ovenfor og gå i gang eller du kan læse mere om de enkelte komponenter herunder.
 
@@ -24,7 +24,7 @@ Skabelonen ligner meget den generelle begrebslisteskabelon, (så kopiering af da
 
  
 
-## Plusprofil-MDG-teknologi
+## MDG-teknologi
 
 En MDG-teknologi er en konfiguration af Sparx Enterprise Architect (Sparx EA) som udvider funktionaliteten af værktøjet til et specifikt behov.
 
@@ -42,7 +42,7 @@ Konfigurering og brug af FDAprofil-MDG-teknologien er beskrevet i vejledningerne
 
  
 
-## Plusprofilreferencedata
+## Referencedata
 
 Til MDG-teknologien hører en fil med referencedata der yderligere udvider de begrebs- og datamodelleringsorienterede funktionaliteter i Sparx EA.
 
@@ -55,22 +55,43 @@ Den indeholder:
 
 ## Projektskabelon
 
-Projektskabelon i Sparx EAs eget filformat (eap), der automatisk knytter Plusprofil-MDG-teknologien og tilhørende referencedata til projektet.
+Projektskabelon i Sparx EAs eget filformat (eap), der automatisk knytter MDG-teknologien og tilhørende referencedata til projektet.
 
 Du kan også vælge selv at knytte MDG-teknologi og referencedata til et projekt, der ikke bruger projektskabelonen. Du kan få hjælp til dette i Vejledning til brug af FDAprofil Sparx EA-pakken.
 
  
+## Dialogboks & RDF Vocabulary Tools (msi-fil) (OBS: Opdatering til v.2 udestår pt.)
 
-## Dialogboks
+### Dialogboks (Opdatering udestår)
 
-Installation af dialogboksen gør det muligt at åbne et vindue, hvor netop de tagged values der skal udfyldes ifølge modelreglerne samles og vises på en nemt overskuelig måde. Desuden giver dialogboksen mulighed for at indtaste mere end en Accepterede termer (altLabel) og Frarådede termer (deprecatedLabel).
+Dialogboksen gør det muligt at åbne et vindue, hvor netop de tagged values der skal udfyldes ifølge modelreglerne samles og vises på en nemt overskuelig måde. Desuden giver dialogboksen mulighed for at indtaste mere end en Accepterede termer (altLabel) og Frarådede termer (deprecatedLabel).
 
 Dialogboksen ligger i en msi-installationsfil installationen går i gang ved dobbeltklik. Hvis du har spørgsmål om installationen, er der yderligere information i Vejledning til konfigurering af Sparx EA med FDAprofil-pakken.
 
 Efter installation kan du aktiverer dialogboksen på to måder. I begge tilfælde skal du markere den pakke eller det modelelement, du ønsker at se tags for. Dernæst TRYK:
 
 * Ctrl+R (for dansk version af dialogboksen) eller 
-* Ctrl+Q (for version med de standardiserede engelske betegnelser), 
+* Ctrl+Q (for version med de standardiserede engelske betegnelser)
+
 
 eller åbn Extend-menuen, og klik Plusprofil Editing Window, og dernæst enten Open Danish Editing Window Eller Open English Editing Window
+
+### RDF Vocabulary Tools (Opdatering udestår)
+
+'Vocabulary Tools' funktionaliteten gør det muligt at modellere med RDF i Sparx EA, men den har også en række begrænsninger på grund af de mange forskellige måder hvorpå et vokabular kan udtrykkes i RDF/XML, så det er med disse forbehold at funktionaliteten kan anvendes. Det anbefales at lade importfilen validere af W3Cs RDF Validator for at udelukke eventuelle mangler i inputfilen. Har man alene en TTL-fil kan denne evt. konverteres til RDF/XML med EasyRDF-converter eller lignende.
+
+I forhold til eksportfunktionaliteten skal man også være opmærksom på at der skal angives prefix, namespace og navn for de vokabularer man importerer/anvender i et notesfelt på modellens diagram, da disse oplysninger anvendes til genereringen af RDF/XML'en. Noten struktureres således: Prefix [TAB] Namespace [TAB] Navn 
+
+Ved anvendelse af Vocabulary Tools udvidelsen kan man:
+
+- Importere et RDF vokabular udtrykt som en OWL/RDF fil (Import OWL/RDF File)
+- Eksportere et RDF vokabular til en OWL/RDF Fil (Export OWL/RDF File)
+- Tilføje en værktøjskasse med en oversigt over samtlige genbrugelige RDF elementer i repositoriet (til lokal brug) (Show Vocabulary Toolbox)
+- Aktivere en RDF-guide oprettelse og genbrug af egenskaber (datatype- og objektegenskaber) (til lokal brug) (Create Properties/Attributes)
+
+Disse funktioner kan tilgås ved at 
+
+1. Højreklikke på en model, 
+2. Vælge menupunktet Extensions
+3. Vælge Vocabulary Tools og den relevante funktion
  
