@@ -15,7 +15,7 @@ Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid fo
 
 Selve begrebslisten udarbejdes enten i fanen ’Begrebsliste DA’, hvis du udelukkende er interesseret i at betegne og beskrive begreberne på dansk, eller i fanen ’Begrebsliste DA+EN’, hvis du ønsker også at betegne og beskrive dem på engelsk.
 
-Begrebsliste DA indeholder nedenstående koloner, og hvert begreb beskrives på en linje
+Begrebsliste DA indeholder nedenstående kolonner, og hvert begreb beskrives på en linje
 
 * Foretrukken dansk term: dansk term som foretrækkes anvendt for et givet begreb
 * Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
