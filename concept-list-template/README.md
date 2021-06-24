@@ -11,7 +11,7 @@ Skabelonen indeholder tre faner.
 * Begrebsliste DA+EN
  
 
-Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid udfylde de første 9 felter.  Der kan evt. være mere end en relevant juridisk kilde. Eventuelle andre relevante kilder, fx nationale eller internationale standarder, skrives i kildefeltet.
+Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid udfylde de første 12 felter.  Der kan evt. være mere end en relevant juridisk kilde. Eventuelle andre relevante kilder, fx nationale eller internationale standarder, skrives i kildefeltet.
 
 Selve begrebslisten udarbejdes enten i fanen ’Begrebsliste DA’, hvis du udelukkende er interesseret i at betegne og beskrive begreberne på dansk, eller i fanen ’Begrebsliste DA+EN’, hvis du ønsker også at betegne og beskrive dem på engelsk.
 
@@ -23,12 +23,13 @@ Begrebsliste DA indeholder nedenstående kolonner, og hvert begreb beskrives på
 * Definition: dansk beskrivelse af betydningen af et begreb
 * Juridisk kilde: reference til lovgrundlag (hjemmel)
 * Kilde: reference til ressource hvorfra begrebet er afledt
-* Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
 * Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
-* Tilhører emneområde: angivelse af om begrebet hører til modellens emneområde
+* Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
+* Anvendelsesnote: note som beskriver hvordan et begreb skal anvendes og forstås i en bestemt anvendelseskontekst
+* Tilhører emne: angivelse af om begrebet hører til modellens emne
 * Identifikator: en fuldt kvalificeret HTTP-URI som identifikator.
  
-Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emneområde' skal altid udfyldes.  
+Felterne 'Foretrukken dansk term', 'Definition' og 'Tilhører emne' skal altid udfyldes.  
 
 Resten af felterne udfyldes, hvis det er relevant. Jo flere alternative termer du angiver, både accepterede og frarådede, jo nemmere bliver det for andre at finde og genkende begrebet, og dermed øger du potentialet for genbrug og sammenhæng til mulige relaterede begrebsmodeller. Desuden kan du angive en kilde for begrebet, helst den ’Juridiske kilde’ begrebet kommer fra i den givne kontekst, ellers en relevant faglig kilde - Eksempler kunne være nationale/internationale standarder. Bemærk at da det netop er kilden til begrebet, altså idéen/tankenheden, der menes, kan en ressource være kilde, selvom den ikke indeholder en præcis definition.
 
