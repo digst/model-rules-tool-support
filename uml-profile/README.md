@@ -1,7 +1,7 @@
 FDA UML-profilen
 =======
 
-FDAprofilen er en UML-profil der implementerer netop de stereotyper og tags som skal anvendes iht. de Fællesoffentlige regler for begrebs- og datamodellering v.2.0. Den kan importeres og anvendes i UML-værktøjer der understøtter UML-profiler.
+FDAprofilen er en UML-profil der implementerer netop de stereotyper og tags som skal anvendes iht. de Fællesoffentlige regler for begrebs- og datamodellering v.2.1. Den kan importeres og anvendes i UML-værktøjer der understøtter UML-profiler.
 
 (Sparx EA brugere behøver ikke installere FDAprofilen separat, da den er indeholdt i den MDG-teknologi Modelsekretariatet har publiceret.)
 
