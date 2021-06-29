@@ -21,6 +21,9 @@
 	<packagedElement xmi:type="uml:Extension" xmi:id="Class_RdfsClass" name="A_Class_RdfsClass" memberEnd="extension_RdfsClass RdfsClass-base_Class">
 		<ownedEnd xmi:id="extension_RdfsClass" name="extension_RdfsClass" type="RdfsClass" isComposite="true" lower="0" upper="1" memberEnd="extension_RdfsClass RdfsClass-base_Class"/>
 	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Status" name="Status">
+		<generalization xmi:type="uml:Generalization" xmi:id="Status_DKEgenskab_generalization" general="DKEgenskab"/>
+	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="ModelElement" name="ModelElement">
 		<ownedAttribute xmi:type="uml:Property" xmi:id="ModelElement-base_Element" name="base_Element" association="Element_ModelElement">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Element"/>
@@ -95,17 +98,122 @@
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="InverseFunctionalProperty" name="InverseFunctionalProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="InverseFunctionalProperty_ObjectProperty_generalization" general="ObjectProperty"/>
 	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKObjekttype" name="DKObjekttype">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKObjekttype_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-base_Class" name="base_Class" association="Class_DKObjekttype">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Class"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKObjekttype-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Class_DKObjekttype" name="A_Class_DKObjekttype" memberEnd="extension_DKObjekttype DKObjekttype-base_Class">
+		<ownedEnd xmi:id="extension_DKObjekttype" name="extension_DKObjekttype" type="DKObjekttype" isComposite="true" lower="0" upper="1" memberEnd="extension_DKObjekttype DKObjekttype-base_Class"/>
+	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="RdfsResource" name="RdfsResource">
 		<generalization xmi:type="uml:Generalization" xmi:id="RdfsResource_ModelElement_generalization" general="ModelElement"/>
 	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKKodeliste" name="DKKodeliste">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKKodeliste_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-base_Enumeration" name="base_Enumeration" association="Enumeration_DKKodeliste">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Enumeration"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-vokabularium" name="vokabularium">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKodeliste-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Enumeration_DKKodeliste" name="A_Enumeration_DKKodeliste" memberEnd="extension_DKKodeliste DKKodeliste-base_Enumeration">
+		<ownedEnd xmi:id="extension_DKKodeliste" name="extension_DKKodeliste" type="DKKodeliste" isComposite="true" lower="0" upper="1" memberEnd="extension_DKKodeliste DKKodeliste-base_Enumeration"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKKlassifikation" name="DKKlassifikation">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKKlassifikation_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-base_Enumeration" name="base_Enumeration" association="Enumeration_DKKlassifikation">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Enumeration"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-vokabularium" name="vokabularium">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKKlassifikation-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Enumeration_DKKlassifikation" name="A_Enumeration_DKKlassifikation" memberEnd="extension_DKKlassifikation DKKlassifikation-base_Enumeration">
+		<ownedEnd xmi:id="extension_DKKlassifikation" name="extension_DKKlassifikation" type="DKKlassifikation" isComposite="true" lower="0" upper="1" memberEnd="extension_DKKlassifikation DKKlassifikation-base_Enumeration"/>
+	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="DatatypeProperty" name="DatatypeProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="DatatypeProperty_RdfsProperty_generalization" general="RdfsProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKEnumeration" name="DKEnumeration">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKEnumeration_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-base_Enumeration" name="base_Enumeration" association="Enumeration_DKEnumeration">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Enumeration"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEnumeration-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Enumeration_DKEnumeration" name="A_Enumeration_DKEnumeration" memberEnd="extension_DKEnumeration DKEnumeration-base_Enumeration">
+		<ownedEnd xmi:id="extension_DKEnumeration" name="extension_DKEnumeration" type="DKEnumeration" isComposite="true" lower="0" upper="1" memberEnd="extension_DKEnumeration DKEnumeration-base_Enumeration"/>
 	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="FunctionalProperty" name="FunctionalProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="FunctionalProperty_RdfsProperty_generalization" general="RdfsProperty"/>
 	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="TransitiveProperty" name="TransitiveProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="TransitiveProperty_ObjectProperty_generalization" general="ObjectProperty"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Identifikation" name="Identifikation">
+		<generalization xmi:type="uml:Generalization" xmi:id="Identifikation_DKEgenskab_generalization" general="DKEgenskab"/>
 	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="InformationModel" name="InformationModel">
 		<generalization xmi:type="uml:Generalization" xmi:id="InformationModel_Model_generalization" general="Model"/>
@@ -131,6 +239,24 @@
 	<packagedElement xmi:type="uml:Extension" xmi:id="Property_RdfsProperty" name="A_Property_RdfsProperty" memberEnd="extension_RdfsProperty RdfsProperty-base_Property">
 		<ownedEnd xmi:id="extension_RdfsProperty" name="extension_RdfsProperty" type="RdfsProperty" isComposite="true" lower="0" upper="1" memberEnd="extension_RdfsProperty RdfsProperty-base_Property"/>
 	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKDomænemodel" name="DKDomænemodel">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKDomænemodel_LogicalDataModel_generalization" general="LogicalDataModel"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDomænemodel-version" name="version">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDomænemodel-forvaltingsopgave" name="forvaltingsopgave">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDomænemodel-registermyndighed" name="registermyndighed">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDomænemodel-modeldomæne" name="modeldomæne">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDomænemodel-status" name="status">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="Individual" name="Individual">
 		<generalization xmi:type="uml:Generalization" xmi:id="Individual_RdfsResource_generalization" general="RdfsResource"/>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Individual-base_InstanceSpecification" name="base_InstanceSpecification" association="InstanceSpecification_Individual">
@@ -149,6 +275,57 @@
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="SymmetricProperty" name="SymmetricProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="SymmetricProperty_ObjectProperty_generalization" general="ObjectProperty"/>
 	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKEgenskab" name="DKEgenskab">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKEgenskab_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-base_Property" name="base_Property" association="Property_DKEgenskab">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Property"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKEgenskab-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="Property_DKEgenskab" name="A_Property_DKEgenskab" memberEnd="extension_DKEgenskab DKEgenskab-base_Property">
+		<ownedEnd xmi:id="extension_DKEgenskab" name="extension_DKEgenskab" type="DKEgenskab" isComposite="true" lower="0" upper="1" memberEnd="extension_DKEgenskab DKEgenskab-base_Property"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Registrering" name="Registrering">
+		<generalization xmi:type="uml:Generalization" xmi:id="Registrering_DKEgenskab_generalization" general="DKEgenskab"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="DKDatatype" name="DKDatatype">
+		<generalization xmi:type="uml:Generalization" xmi:id="DKDatatype_ModelElement_generalization" general="ModelElement"/>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-base_DataType" name="base_DataType" association="DataType_DKDatatype">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#DataType"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-lovgrundlag" name="lovgrundlag">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-definition" name="definition">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-note" name="note">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-eksempel" name="eksempel">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="DKDatatype-alternativtNavn" name="alternativtNavn">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Extension" xmi:id="DataType_DKDatatype" name="A_DataType_DKDatatype" memberEnd="extension_DKDatatype DKDatatype-base_DataType">
+		<ownedEnd xmi:id="extension_DKDatatype" name="extension_DKDatatype" type="DKDatatype" isComposite="true" lower="0" upper="1" memberEnd="extension_DKDatatype DKDatatype-base_DataType"/>
+	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="ObjectProperty" name="ObjectProperty">
 		<generalization xmi:type="uml:Generalization" xmi:id="ObjectProperty_RdfsProperty_generalization" general="RdfsProperty"/>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="ObjectProperty-inverseOf" name="inverseOf">
@@ -165,13 +342,13 @@
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-base_Package" name="base_Package" association="Package_Model">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#Package"/>
 		</ownedAttribute>
-		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-label (en)" name="label (en)">
-			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
-		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modelScope" name="modelScope">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
-		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-label (da)" name="label (da)">
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-description (en)" name="description (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-description (da)" name="description (da)">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-responsibleEntity" name="responsibleEntity">
@@ -198,22 +375,31 @@
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modelStatus" name="modelStatus">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
-		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-comment (en)" name="comment (en)">
-			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
-		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-theme" name="theme">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
-		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-comment (da)" name="comment (da)">
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-versionNotes (en)" name="versionNotes (en)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-versionNotes (da)" name="versionNotes (da)">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-title (en)" name="title (en)">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-source" name="source">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-title (da)" name="title (da)">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-legalSource" name="legalSource">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-namespacePrefix" name="namespacePrefix">
+			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
+		</ownedAttribute>
+		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-URI" name="URI">
 			<type href="http://www.omg.org/spec/UML/20110701/UML.xmi#String"/>
 		</ownedAttribute>
 		<ownedAttribute xmi:type="uml:Property" xmi:id="Model-modified" name="modified">
@@ -225,6 +411,9 @@
 	</packagedElement>
 	<packagedElement xmi:type="uml:Extension" xmi:id="Package_Model" name="A_Package_Model" memberEnd="extension_Model Model-base_Package">
 		<ownedEnd xmi:id="extension_Model" name="extension_Model" type="Model" isComposite="true" lower="0" upper="1" memberEnd="extension_Model Model-base_Package"/>
+	</packagedElement>
+	<packagedElement xmi:type="uml:Stereotype" xmi:id="Virkning" name="Virkning">
+		<generalization xmi:type="uml:Generalization" xmi:id="Virkning_DKEgenskab_generalization" general="DKEgenskab"/>
 	</packagedElement>
 	<packagedElement xmi:type="uml:Stereotype" xmi:id="ClassificationModel" name="ClassificationModel">
 		<generalization xmi:type="uml:Generalization" xmi:id="ClassificationModel_Model_generalization" general="Model"/>
