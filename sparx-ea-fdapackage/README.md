@@ -6,7 +6,7 @@ Modelsekretariatet har udviklet en FDAprofil-pakke af værktøjer der letter mod
 FDAprofil Sparx EA-pakken indholder 5 komponenter
 
 1. Begrebslisteskabelon til csv-import (xlsx-fil)
-2. MDG-teknologi (xml-fil) https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
+2. MDG-teknologi (xml-fil) https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
 3. Referencedata (xml-fil)
 4. Projektskabelon (eap-fil)
 5. Dialogboks & RDF Vocabulary Tools Addin (msi-fil)
