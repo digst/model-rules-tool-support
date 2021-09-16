@@ -11,7 +11,7 @@ Skabelonen indeholder tre faner.
 * Begrebsliste DA+EN
  
 
-Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid forsyne din begrebsliste med forretningsmetadata. Du skal altid udfylde de første 12 felter.  Der kan evt. være mere end en relevant juridisk kilde. Eventuelle andre relevante kilder, fx nationale eller internationale standarder, skrives i kildefeltet.
+Du skal altid forsyne din begrebsliste med forretningsmetadata. 
 
 Selve begrebslisten udarbejdes enten i fanen ’Begrebsliste DA’, hvis du udelukkende er interesseret i at betegne og beskrive begreberne på dansk, eller i fanen ’Begrebsliste DA+EN’, hvis du ønsker også at betegne og beskrive dem på engelsk.
 
@@ -21,11 +21,11 @@ Begrebsliste DA indeholder nedenstående kolonner, og hvert begreb beskrives på
 * Accepteret dansk term: dansk term som accepteres anvendt for et givet begreb
 * Frarådet dansk term: dansk term som ikke bør anvendes for et givet begreb
 * Definition: dansk beskrivelse af betydningen af et begreb
-* Juridisk kilde: reference til lovgrundlag (hjemmel)
-* Kilde: reference til ressource hvorfra begrebet er afledt
 * Eksempel: typisk tilfælde der beskrives for at forklare eller anskueliggøre
 * Kommentar: supplerende bemærkning eller oplysning vedrørende begrebet
 * Anvendelsesnote: note som beskriver hvordan et begreb skal anvendes og forstås i en bestemt anvendelseskontekst
+* Juridisk kilde: reference til lovgrundlag (hjemmel)
+* Kilde: reference til ressource hvorfra begrebet er afledt
 * Tilhører emne: angivelse af om begrebet hører til modellens emne
 * Identifikator: en fuldt kvalificeret HTTP-URI som identifikator.
  
