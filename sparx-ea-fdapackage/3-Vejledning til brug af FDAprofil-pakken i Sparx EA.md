@@ -68,6 +68,8 @@ Version 13 & 14:
 3)	Vælg den relevante rapportskabelon (Eks. FDAprofil Begrebsliste under Technology Templates/User Templates)
 4)	Angiv filplacering og navn under ”Output to File” (Klik ”…”)
 5)	Klik på Generate
+
+
  
 ## Eksporter UML-model (til xmi-format)
 Følg disse trin for at eksportere en UML-model (til xmi-format)
@@ -75,7 +77,7 @@ Følg disse trin for at eksportere en UML-model (til xmi-format)
 Version 13:
 1)	Højreklik på pakken (modellen) i Project Browser
 2)	Vælg Import/Export og vælg Export package to xmi…
-3)	Klik på Publish og vælg UML 2.4.1 (XMI 2.4.2)
+3)	Klik på Publish og vælg UML 2.5 (XMI 2.5.1)
 4)	Angiv filnavn og placering
 5)	Klik Export
 
