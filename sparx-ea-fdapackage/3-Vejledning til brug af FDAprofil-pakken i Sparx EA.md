@@ -69,7 +69,28 @@ Version 13 & 14:
 4)	Angiv filplacering og navn under ”Output to File” (Klik ”…”)
 5)	Klik på Generate
 
+## Udskriv dokumentation til HTML-rapport
 
+Denne metode danner et HTML-dokument der viser metadat for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. 
+
+Version 13:
+
+    Højreklik på pakken (modellen) i Project Browser
+    Vælg Import/Export og vælg Export package to xmi…
+    Klik på Publish
+		under XML Type: vælg UML 2.5 (XMI 2.5.1)
+		under Stylesheet: vælg FDA-Modelrapport-HTML
+    Angiv filnavn (af typen .html) og placering
+    Klik Export
+	
+## Udskriv diagrammer til billedfiler
+
+Version 13:
+	Åben diagrammet
+	Klik på fanen Publish
+	Klik Save Image | Save to File
+	Angiv filnavn og placering 
+	Klik Gem
  
 ## Eksporter UML-model (til xmi-format)
 Følg disse trin for at eksportere en UML-model (til xmi-format)
