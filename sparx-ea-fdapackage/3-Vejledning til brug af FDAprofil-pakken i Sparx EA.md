@@ -71,7 +71,7 @@ Version 13 & 14:
 
 ## Udskriv dokumentation til HTML-rapport
 
-Denne metode danner et HTML-dokument der viser metadat for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. 
+Denne metode danner et HTML-dokument der viser metadat for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. Den kræver at stereotyperne 'Modelelement' eller 'Concept' fra FDA-profilen er anvendt.
 
 Version 13:
 
