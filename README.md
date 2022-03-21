@@ -7,7 +7,7 @@ Ressource | Beskrivelse | Link
 ------------ | ------------- | -------------
 Begrebslisteskabelon | Skabelon til begrebsliste til import i regnearksprogram, fx MS Excel | https://github.com/digst/model-rules-tool-support/tree/master/concept-list-template
 FDAprofil | Profil til konfiguration af UML-værktøj således at stereotyper og tag-definitioner følger Modelreglerne. | https://github.com/digst/model-rules-tool-support/tree/master/uml-profile
-FDAprofil-SparxEA-MDG | MDG-teknologi til Sparx EA (i test) | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
+FDAprofil-SparxEA-MDG | MDG-teknologi til Sparx EA | https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG.xml
 FDAprofil-SparxEA-pakke | Samlet pakke med ressourcer til Sparx Enterprise Architect, der letter overholdelse af modelreglerne, inkl. FDAprofil MDG |https://github.com/digst/model-rules-tool-support/tree/master/sparx-ea-fdapackage
 
 ## Kom hurtigt i gang med Sparx EA MDG'en:
