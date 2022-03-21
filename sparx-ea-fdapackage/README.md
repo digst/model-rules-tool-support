@@ -45,9 +45,9 @@ Konfigurering og brug af FDAprofil-MDG-teknologien er beskrevet i vejledningerne
 Den til enhver tid seneste MDG kan tilgås via dette link: https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG.xml 
 
 Det er også muligt at finde specifikke versioner af MDG'en, fx
-https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
-https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
-https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.1.0.xml
+* https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
+* https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
+* https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.1.0.xml
 
 ## Referencedata
 
