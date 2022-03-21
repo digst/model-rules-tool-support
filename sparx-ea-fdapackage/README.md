@@ -6,10 +6,11 @@ Modelsekretariatet har udviklet en FDAprofil-pakke af værktøjer der letter mod
 FDAprofil Sparx EA-pakken indholder 5 komponenter
 
 1. Begrebslisteskabelon til csv-import (xlsx-fil)
-2. MDG-teknologi (xml-fil) https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
+2. MDG-teknologi (xml-fil) https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG.xml
 3. Referencedata (xml-fil)
 4. Projektskabelon (eap-fil)
-5. Dialogboks & RDF Vocabulary Tools Addin (msi-fil)
+5. Stylesheet til generering af HTML-rapport (xsl-fil)
+6. Dialogboks & RDF Vocabulary Tools Addin (msi-fil)
 
 Du kan hente pakken samt tilhørende vejedninger ovenfor og gå i gang eller du kan læse mere om de enkelte komponenter herunder.
 
@@ -37,10 +38,16 @@ Den består af følgende komponenter:
 * Toolboxdefinition: Værktøjskasser tilpasset diagramtyperne hvorfra elementer kanhentes ind i diagrammet med de tags, der hører til de relevante stereotyper
 * Datatyper: Modelreglernes XSD datatyper
 * Workspace-layout: Placering af vinduer som letter adgang til værktøj og tags.
+* Rapportskabeloner: Rapportskabeloner til begrebsmodeller og logiske modeller
 
 Konfigurering og brug af FDAprofil-MDG-teknologien er beskrevet i vejledningerne nedenfor.
 
- 
+Den til enhver tid seneste MDG kan tilgås via dette link: https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG.xml 
+
+Det er også muligt at finde specifikke versioner af MDG'en, fx
+https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v0.7.0.xml
+https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.0.0.xml
+https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG_v1.1.0.xml
 
 ## Referencedata
 
@@ -50,8 +57,10 @@ Den indeholder:
 
 * CSV-import specifikation: Specifikation til import af begrebsliste i tabelformat
 * Scripts: Diverse scripts til masseopdatering af modelelementer og tags
-* Rapportskabeloner: Rapportskabeloner til begrebsmodeller og logiske modeller
- 
+
+## Stylesheet til generering af HTML-rapport
+
+Stylesheet der giver mulighed for at eksportere metadata om model og modelelementer til html, der med indsætning af diagrammer bliver en let læselig systemuafhængig modelrapport.
 
 ## Projektskabelon
 
