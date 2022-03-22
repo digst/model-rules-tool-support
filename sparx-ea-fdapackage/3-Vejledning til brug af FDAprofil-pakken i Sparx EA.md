@@ -1,7 +1,7 @@
-Vejledning i brug af Plusprofil-pakken
+Vejledning i brug af FDAprofil-pakken
 ======
 
-Følgende forudsætter at du har installeret Sparx Enterprise Architect, hentet Plusprofil Sparx EA-pakken og konfigureret Sparx EA med FDAprofil-MDG-teknologien. Illustrationer her passer til Sparx EA version 13, men der gives instruktioner til både version 13 og 14. 
+Følgende forudsætter at du har installeret Sparx Enterprise Architect, hentet FDAprofil Sparx EA-pakken og konfigureret Sparx EA med FDAprofil-MDG-teknologien. Illustrationer her passer til Sparx EA version 13, men der gives instruktioner til både version 13 og 14. 
 
 Vejledningen indeholder 4 dele:
 1.	Trin-for-trin vejledning til modellering med MDG-teknologien
@@ -61,7 +61,7 @@ Har du installeret FDAprofil-dialogboks-tilføjelsen anvender man blot genvejen 
 Har man hverken installeret FDAprofil Workspace-layoutet eller FDA-profildialogboksen
 skal man dobbeltklikke på elementet/modellen for at tilføje indhold til taggene.
 
-## Udskriv dokumentation vha. rapportskabeloner
+## Udskriv modelrapport vha. rapportskabeloner
 Version 13 & 14:
 1)	Tryk på F8
 2)	Åbn valglisten Template 
@@ -69,28 +69,26 @@ Version 13 & 14:
 4)	Angiv filplacering og navn under ”Output to File” (Klik ”…”)
 5)	Klik på Generate
 
-## Udskriv dokumentation til HTML-rapport
-
-Denne metode danner et HTML-dokument der viser metadat for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. Den kræver at stereotyperne 'Modelelement' eller 'Concept' fra FDA-profilen er anvendt.
+## Udskriv HTML-modelrapport
+Denne metode danner et HTML-dokument der viser metadata for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. Den kræver at stereotyperne 'Modelelement' eller 'Concept' fra FDA-profilen er anvendt. Fordelen ift. at anvende rapportskabeloner er at tomme felter ikke udskrives, hvilket øger rapportens læsevenlighed.
 
 Version 13:
-
-    Højreklik på pakken (modellen) i Project Browser
-    Vælg Import/Export og vælg Export package to xmi…
-    Klik på Publish
+1)	Højreklik på pakken (modellen) i Project Browser
+2)	Vælg Import/Export og vælg Export package to xmi…
+3)	 Klik på Publish
 		under XML Type: vælg UML 2.5 (XMI 2.5.1)
 		under Stylesheet: vælg FDA-Modelrapport-HTML
-    Angiv filnavn (af typen .html) og placering
-    Klik Export
+4)	Angiv filnavn (af typen .html) og placering
+5)	Klik Export
 	
-## Udskriv diagrammer til billedfiler
+### Udskriv diagrammer til billedfiler
 
 Version 13:
-	Åben diagrammet
-	Klik på fanen Publish
-	Klik Save Image | Save to File
-	Angiv filnavn og placering 
-	Klik Gem
+1)	Åben diagrammet
+2)	Klik på fanen Publish
+3)	Klik Save Image | Save to File
+4)	Angiv filnavn og placering 
+5)	Klik Gem
  
 ## Eksporter UML-model (til xmi-format)
 Følg disse trin for at eksportere en UML-model (til xmi-format)
@@ -191,7 +189,7 @@ Til sidst gør du følgende i Sparx EA (version 13 & 14):
 Bemærk at der vil optræde to 'kendte fejl', som skyldes at overskrifterne ikke fjernes, men dette har ingen betydningen for importen
  
 # 3) Vejledning til brug af FDAprofil-dialogboksudvidelsen
-Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values for modeller og modelelementer. Se evt. Vejledning til konfigurering af Sparx Enterprise Architect med Plusprofil-pakken for information om hvordan du installerer dialogboksen.
+Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values for modeller og modelelementer. Se evt. Vejledning til konfigurering af Sparx Enterprise Architect med FDAprofil-pakken for information om hvordan du installerer dialogboksen.
  
 Der er to udgaver af dialogboksen. De indeholder begge de samme felter og giver mulighed for redigering af samme data. Den ene version, som ses ovenfor, anvender danske betegnelser for felterne, svarende til dem der er anvendt i Begrebslisteskabelonen. Den anden anvender standardiserede UML-tags, som også anvendes internationalt. Disse betegnelser er på engelsk.
 Aktivering af dialogboksen
