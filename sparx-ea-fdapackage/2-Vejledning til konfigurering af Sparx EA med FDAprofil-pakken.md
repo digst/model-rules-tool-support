@@ -34,11 +34,11 @@ Se derudover eventuelt dokumentet Tips og tricks til UML-modellering i Sparx Ent
 https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/edit?usp=sharing
  
 # Import af stylesheet til HTML-modelrapport
-1. Hent stylesheet (FDA-Modelrapport-HTML.xsl) fra dette repositorie
+1. Hent stylesheet ([FDA-Modelrapport-HTML.xsl](https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/FDA-Modelrapport-HTML.xsl)) fra dette repositorie
 2. I Sparx: Find Resources-vinduet (ofte bag Project Browser, eller kan vælges Window-manue øverst til venstre)
 3. Højreklik på Stylesheets
 4. Vælg Import Stylesheet og finde den hentede .xsl-fil
-5. Giv stylesheet et sigende nav, fx FDA-Modelrapport-HTML (den angivne max-grænse på 12 tegn kan godt overskrides)
+5. Giv stylesheetet et sigende navn, fx FDA-Modelrapport-HTML (den angivne max-grænse på 12 tegn kan godt overskrides)
 
 Stylesheet er nu tilgengængligt i forbindelse med eksport af xmi-filer. Se mere i Vejledning til brug af FDAprofil-pakken i Sparx EA.
 
