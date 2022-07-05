@@ -44,6 +44,8 @@ Stylesheet er nu tilgengængligt i forbindelse med eksport af xmi-filer. Se mere
 
 # Trin-for-trin installation/afinstallation af Plusprofil-dialogboksen:
 
+Link ti installationsfil: https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/FDAprofilAddinInstaller.msi
+
 ## Vejledning til installation af dialogboks
 1.	Afinstaller evt. tidligere versioner af Plus/FDAprofil-dialogboksen – se separat vejledning herunder
 2.	Dobbeltklik på dialogboks-filen. (Windows kan finde på at give en advarsel fordi udgiveren er ukendt - det betyder ikke at der er noget galt med filen)
