@@ -42,7 +42,8 @@ Version 14:
 * Luk evt Model Wizard
 
 (Der oprettes en ny skabelonpakke med vejledningsdiagram og to forskellige modeltyper)
-Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales det at ekstrafunktionerne (rapportskabeloner, importspecifikationer og scripts) importeres i projektet.
+
+Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales det at ekstrafunktionerne (rapportskabeloner, importspecifikationer og scripts) importeres i projektet. Se vejledning nedenfor.
 
 ## Importér ekstrafunktioner som referencedata i projektet (anbefales):
 Version 13 og 14:
