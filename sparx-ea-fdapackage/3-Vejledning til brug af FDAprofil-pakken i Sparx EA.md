@@ -49,7 +49,7 @@ Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales
 Version 13 og 14:
 1.	Klik CONFIGURE | Transfer | Import Reference Data
 2.	Klik Select File og vælg <a
-href="https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml">Referencedata.xml-filen fra FDAprofil-pakken</a>.
+href="https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml">Referencedata.xml-filen</a> fra FDAprofil-pakken.
 3.	Vælg begge dataset: Automation Scripts og CSV (Vælg flere ved at holde Ctrl nede)
 4.	Klik på Import og funktionerne er nu tilgængelige
 Nu er du klar til at tilføje modelelementer og angive metadata 
