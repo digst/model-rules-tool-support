@@ -112,12 +112,11 @@ Version 14:
 Følg disse trin for at importere en UML-model (i xmi-format) til et eksisterende EA-projekt
 
 Version 13:
-1)	Højreklik i Project Browser vinduet
+1)	Højreklik på den pakke i Project Browser vinduet, som du gerne vil have modellen placeret i.
 2)	Klik på Import Model from xmi…
-3)	Vælg placering af modellen (ud for Package)
-4)	Naviger hen til den pågældende xmi-fil der skal importeres (ud for Filename)
-5)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
-6)	Klik på Import
+3)	Naviger hen til den pågældende xmi-fil der skal importeres (ud for Filename)
+4)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
+5)	Klik på Import
 
 Version 14:
 1)	Klik Publish|Import XMI|Import Model XMI
