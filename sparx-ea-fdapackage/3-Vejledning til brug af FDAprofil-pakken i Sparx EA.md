@@ -156,7 +156,7 @@ Herefter har man flere muligheder:
 
 Sådan anvendes masseopdateringsfunktionerne:
 1)	Højreklik på den relevante model (som skal have en stereotype fra Plusprofilen)
-2)	Vælg <BR>  a.	I EA 13: menupunktet Scripts <BR>  b.	I EA 14: Specialize|Scripts <BR>
+2)	Vælg <BR>  a)	I EA 13: menupunktet Scripts <BR>  b)	I EA 14: Specialize|Scripts <BR>
 4)	Klik på det relevante script og elementerne opdateres
  
 # 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
