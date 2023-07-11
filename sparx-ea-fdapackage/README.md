@@ -77,7 +77,7 @@ Dialogboksen gør det muligt at åbne et vindue, hvor netop de tagged values der
 
 Dialogboksen ligger i en msi-installationsfil installationen går i gang ved dobbeltklik. Hvis du har spørgsmål om installationen, er der yderligere information i Vejledning til konfigurering af Sparx EA med FDAprofil-pakken.
 
-Efter installation kan du aktiverer dialogboksen på to måder. I begge tilfælde skal du markere den pakke eller det modelelement, du ønsker at se tags for. Dernæst TRYK:
+Efter installation kan du aktivere dialogboksen på to måder. I begge tilfælde skal du markere den pakke eller det modelelement, du ønsker at se tags for. Dernæst TRYK:
 
 * Ctrl+R (for dansk version af dialogboksen) eller 
 * Ctrl+Q (for version med de standardiserede engelske betegnelser)
