@@ -141,7 +141,7 @@ Copy / Paste > Paste Element(s) from Clipboard
 Elementet duplikeres og kan genbruges til en bestemt anvendelse, men identifikatoren (URIen) gør det muligt at opnå sporbarhed på tværs af organisationer og anvendte modelleringsværktøjer.
 
 ## Masseopdatering af elementer
-Man <BR>  kan tilføje yderligere funktionalitet til Sparx Enterprise Architect ved at importere en fil med funktioner der kan masseopdatere modellens indhold og deres tilhørende tags, dvs. klasser, objekter, attributter og associationsender.
+Man kan tilføje yderligere funktionalitet til Sparx Enterprise Architect ved at importere en fil med funktioner der kan masseopdatere modellens indhold og deres tilhørende tags, dvs. klasser, objekter, attributter og associationsender.
 
 Herefter har man flere muligheder:
 * Kopier UML-navn til prefLabel (da) - Copy UML name to prefLabel (da)
@@ -156,12 +156,7 @@ Herefter har man flere muligheder:
 
 Sådan anvendes masseopdateringsfunktionerne:
 1)	Højreklik på den relevante model (som skal have en stereotype fra Plusprofilen)
-2)	Vælg
-    
-	a.	I EA 13: menupunktet Scripts
-
-	b.	I EA 14: Specialize|Scripts
-
+2)	Vælg <BR>  a.	I EA 13: menupunktet Scripts <BR>  b.	I EA 14: Specialize|Scripts <BR>
 4)	Klik på det relevante script og elementerne opdateres
  
 # 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
