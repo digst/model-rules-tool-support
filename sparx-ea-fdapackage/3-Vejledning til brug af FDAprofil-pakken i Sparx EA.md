@@ -48,7 +48,7 @@ Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales
 ## Importér ekstrafunktioner som referencedata i projektet (anbefales):
 Version 13 og 14:
 1.	Klik CONFIGURE | Transfer | Import Reference Data
-2.	Klik Select File og vælg Referencedata.xml-filen fra FDAprofil-pakken. Link til referencedata.xml: https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml
+2.	Klik Select File og vælg Referencedata.xml-filen fra FDAprofil-pakken. Link til Referencedata.xml: https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml
 3.	Vælg alle tre datasets: Automation Scripts, RTF Document Templates, CSV (Vælg flere ved at holde Ctrl nede)
 4.	Klik på Import og funktionerne er nu tilgængelige
 Nu er du klar til at tilføje modelelementer og angive metadata 
