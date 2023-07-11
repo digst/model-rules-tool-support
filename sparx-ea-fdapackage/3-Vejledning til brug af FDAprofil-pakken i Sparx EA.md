@@ -141,7 +141,7 @@ Copy / Paste > Paste Element(s) from Clipboard
 Elementet duplikeres og kan genbruges til en bestemt anvendelse, men identifikatoren (URIen) gør det muligt at opnå sporbarhed på tværs af organisationer og anvendte modelleringsværktøjer.
 
 ## Masseopdatering af elementer
-Man kan tilføje yderligere funktionalitet til Sparx Enterprise Architect ved at importere en fil med funktioner der kan masseopdatere modellens indhold og deres tilhørende tags, dvs. klasser, objekter, attributter og associationsender.
+Man <BR>  kan tilføje yderligere funktionalitet til Sparx Enterprise Architect ved at importere en fil med funktioner der kan masseopdatere modellens indhold og deres tilhørende tags, dvs. klasser, objekter, attributter og associationsender.
 
 Herefter har man flere muligheder:
 * Kopier UML-navn til prefLabel (da) - Copy UML name to prefLabel (da)
@@ -151,16 +151,16 @@ Herefter har man flere muligheder:
 * Kopier Notes til definition (da) - Copy UML Notes to definition (da) 
 * Kopier Notes til definition (en) - Copy UML Notes to definition (en) 
 * Kopier tags fra ét element til et andet -Copy tags from one element to another
-* Generer identifikatorer og tildel præfikses -: Autofill URI and assign prefixes
+* Generer identifikatorer og tildel præfikses -: Autofill URI and assign prefixes 
 * Autoudfyld subClassOf-tag: - Autofill subClassOf-tag
 
 Sådan anvendes masseopdateringsfunktionerne:
 1)	Højreklik på den relevante model (som skal have en stereotype fra Plusprofilen)
 2)	Vælg
     
-a.	I EA 13: menupunktet Scripts
+	a.	I EA 13: menupunktet Scripts
 
-b.	I EA 14: Specialize|Scripts
+	b.	I EA 14: Specialize|Scripts
 
 4)	Klik på det relevante script og elementerne opdateres
  
@@ -186,7 +186,7 @@ Til sidst gør du følgende i Sparx EA (version 13 & 14):
 3.	Klik PUBLISH | CSV
 4.	Klik CSV Import/Export
 5.	Ved Specification vælg den begrebslisteskabelon du bruger, fx Begrebslisteskabelon_v0.10.0
-6.	Vælg den gemte csv-fil (i UFT8-formatet)
+6.	Ved file vælg den gemte csv-fil (i UFT8-formatet)
 7.	Klik Run og begreberne importeres som klasser i modellen
 
 Bemærk at der vil optræde to 'kendte fejl', som skyldes at overskrifterne ikke fjernes, men dette har ingen betydningen for importen
