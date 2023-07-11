@@ -24,7 +24,7 @@ Version 14:
 * Klik Gem
 
 ## Opret modelprojekt (med Model Wizard)
-Følg disse trin for at iorette en samlet projektpakke med forskellige FDA-modelskabeloner
+Følg disse trin for at oprette en samlet projektpakke med forskellige FDA-modelskabeloner
 
 Version 13:
 * Klik Design
@@ -48,7 +48,7 @@ Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales
 ## Importér ekstrafunktioner som referencedata i projektet (anbefales):
 Version 13 og 14:
 1.	Klik CONFIGURE | Transfer | Import Reference Data
-2.	Klik Select File og vælg Referencedata.xml-filen fra FDAprofil-pakken
+2.	Klik Select File og vælg <a https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml> Referencedata.xml-filen </a> fra FDAprofil-pakken
 3.	Vælg alle tre datasets: Automation Scripts, RTF Document Templates, CSV (Vælg flere ved at holde Ctrl nede)
 4.	Klik på Import og funktionerne er nu tilgængelige
 Nu er du klar til at tilføje modelelementer og angive metadata 
