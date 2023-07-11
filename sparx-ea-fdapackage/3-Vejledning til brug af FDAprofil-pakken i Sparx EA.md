@@ -190,7 +190,7 @@ Bemærk at der vil optræde to 'kendte fejl', som skyldes at overskrifterne ikke
 Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values for modeller og modelelementer. Se evt. Vejledning til konfigurering af Sparx Enterprise Architect med FDAprofil-pakken for information om hvordan du installerer dialogboksen.
  
 Der er to udgaver af dialogboksen. De indeholder begge de samme felter og giver mulighed for redigering af samme data. Den ene version, som ses ovenfor, anvender danske betegnelser for felterne, svarende til dem der er anvendt i Begrebslisteskabelonen. Den anden anvender standardiserede UML-tags, som også anvendes internationalt. Disse betegnelser er på engelsk. <BR>  
-Aktivering af dialogboksen
+Aktivering af dialogboksen:
 
 Dialogboksen kan aktiveres på to måder. I begge tilfælde skal du markerer relevant pakke eller modelelement, dernæst kan du enten:
 * bruge genvejstaster: Ctrl+R for den danske version, Ctrl+Q for den engelske, eller
