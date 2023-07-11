@@ -55,7 +55,7 @@ Link til installationsfil: https://github.com/digst/model-rules-tool-support/blo
 ## Vejledning til afinstallation af dialogboks
 *	Åbn Kontrolpanelet/Control Panel  
 *	Vælg ”Fjern et program/Remove program”
-*	Marker ”Enterprise architect – FDAprofil Add-In” på programlisten og klik ”Fjern/Uninstall”
+*	Marker ”Enterprise architect – FDAprofil + VocabularyTools Add-In” på programlisten og klik ”Fjern/Uninstall”
  
 N.B. Det er også muligt at fjerne dialogboks-tilføjelsen ved at slette .dll-filen direkte i AppData-mappen
 C:\Users\BRUGERNAVN\AppData\Roaming\Sparx Systems\EA\MDGTechnologies
