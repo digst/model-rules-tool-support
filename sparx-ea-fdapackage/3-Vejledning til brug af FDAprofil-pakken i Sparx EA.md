@@ -158,7 +158,8 @@ Sådan anvendes masseopdateringsfunktionerne:
 1)	Højreklik på den relevante model (som skal have en stereotype fra Plusprofilen)
 2)	Vælg
     
-a.	I EA 13: menupunktet Scripts 
+a.	I EA 13: menupunktet Scripts
+
 b.	I EA 14: Specialize|Scripts
 4)	Klik på det relevante script og elementerne opdateres
  
