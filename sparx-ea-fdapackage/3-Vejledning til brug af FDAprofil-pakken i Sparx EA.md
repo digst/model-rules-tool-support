@@ -161,6 +161,7 @@ Sådan anvendes masseopdateringsfunktionerne:
 a.	I EA 13: menupunktet Scripts
 
 b.	I EA 14: Specialize|Scripts
+
 4)	Klik på det relevante script og elementerne opdateres
  
 # 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
