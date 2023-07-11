@@ -191,7 +191,7 @@ Dialogboksen giver mere brugervenlig dialogboks til indtastning af tagged values
 Der er to udgaver af dialogboksen. De indeholder begge de samme felter og giver mulighed for redigering af samme data. Den ene version, som ses ovenfor, anvender danske betegnelser for felterne, svarende til dem der er anvendt i Begrebslisteskabelonen. Den anden anvender standardiserede UML-tags, som også anvendes internationalt. Disse betegnelser er på engelsk. <BR>  
 Aktivering af dialogboksen:
 
-Dialogboksen kan aktiveres på to måder. I begge tilfælde skal du markerer relevant pakke eller modelelement, dernæst kan du enten:
+Dialogboksen kan aktiveres på to måder. I begge tilfælde skal du markere relevante pakke eller modelelement, dernæst kan du enten:
 * bruge genvejstaster: Ctrl+R for den danske version, Ctrl+Q for den engelske, eller
 * bruge menubåndet foroven og klikke Extend (v 14: Specialize) | Plusprofil Editing Window og vælge Open Danish Editing Window eller Open English Editing Window, som vist nedenfor
  
