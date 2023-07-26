@@ -1,7 +1,7 @@
 Vejledning i brug af FDAprofil-pakken
 ======
 
-Følgende forudsætter at du har installeret Sparx Enterprise Architect, hentet FDAprofil Sparx EA-pakken og konfigureret Sparx EA med FDAprofil-MDG-teknologien. Illustrationer her passer til Sparx EA version 13, men der gives instruktioner til både version 13 og 14. 
+Følgende forudsætter at du har installeret Sparx Enterprise Architect, hentet FDAprofil Sparx EA-pakken og konfigureret Sparx EA med FDAprofil-MDG-teknologien. Illustrationer her passer til Sparx EA version 13, men der gives instruktioner til både version 13, 14 og 16. 
 
 Vejledningen indeholder 4 dele:
 1.	Trin-for-trin vejledning til modellering med MDG-teknologien
@@ -17,7 +17,7 @@ Version 13:
 * Angiv filnavn
 * Klik Gem
 
-Version 14:
+Version 14 og 16:
 * Klik på Sparx-logoet øverst til højre
 * Klik New Project…
 * Angiv filnavn og placering 
@@ -41,6 +41,13 @@ Version 14:
 * Klik Create Pattern(s)
 * Luk evt Model Wizard
 
+Version 16
+* Klik Design
+* Klik Model Wizard
+* Scroll ned til FDAprofilen og klik derpå
+* Vælg "FDAprofil (UML): Opret samlet FDAprofilpakke"
+* Klik Create Model(s)
+
 (Der oprettes en ny skabelonpakke med vejledningsdiagram og to forskellige modeltyper)
 
 Uanset om du anvender projektskabelonen eller opretter et nyt projekt, anbefales det at ekstrafunktionerne (rapportskabeloner, importspecifikationer og scripts) importeres i projektet. Se vejledning nedenfor.
@@ -52,7 +59,15 @@ Version 13 og 14:
 href="https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml">Referencedata.xml-filen</a> fra FDAprofil-pakken.
 3.	Vælg begge dataset: Automation Scripts og CSV (Vælg flere ved at holde Ctrl nede)
 4.	Klik på Import og funktionerne er nu tilgængelige
-Nu er du klar til at tilføje modelelementer og angive metadata 
+
+Version 16
+1. 	Klik Settings | Transfer | Import Reference Data
+2. 	Klik Select File og vælg <a
+href="https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/referencedata.xml">Referencedata.xml-filen</a> fra FDAprofil-pakken.
+3. 	Vælg begge dataset: Automation Scripts og CSV (Vælg flere ved at holde Ctrl nede)
+4.	Klik på Import og funktionerne er nu tilgængelige
+   
+Nu er du klar til at tilføje modelelementer og angive metadata
 
 ## Tilføj modelelementer og tilføj metadata (tags)
 1.	Dobbeltklik på modeldiagrammet og træk elementer og relationer fra værktøjskassen til diagrammet 
