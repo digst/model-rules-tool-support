@@ -96,13 +96,21 @@ Version 13:
 		under Stylesheet: vælg FDA-Modelrapport-HTML
 4)	Angiv filnavn (af typen .html) og placering
 5)	Klik Export
+
+Version 16:
+1)	Klik på pakken (modellen) i Project Browser
+2)	Klik på fanen Publish | Publish As...
+   		under XML Type: vælg UML 2.5 (XMI 2.5.1)
+  		under Stylesheet: vælg FDA-Modelrapport-HTML
+4)	Angiv filnavn (af typen .html) og placering
+5)	Klik Export
 	
 ### Udskriv diagrammer til billedfiler
 
 Version 13:
 1)	Åben diagrammet
 2)	Klik på fanen Publish
-3)	Klik Save Image | Save to File
+3)	Klik Save Image (i v. 16: Save) | Save to File
 4)	Angiv filnavn og placering 
 5)	Klik Gem
  
