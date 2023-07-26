@@ -82,11 +82,11 @@ skal man dobbeltklikke på elementet/modellen for at tilføje indhold til taggen
 Version 13 & 14:
 1)	Tryk på F8
 2)	I valglisten Generate angiv filplacering under ”Output to File” (Klik ”…”)
-3)	Åbn valglisten Template 
+3)	Åbn valglisten Template (i v. 16: Templates)
 4)	Dobbeltklik på den relevante rapportskabelon (Eks. FDAprofil Begrebsliste under Technology Templates/User Templates)
 
 ## Udskriv HTML-modelrapport
-Denne metode danner et HTML-dokument der viser metadata for modellen og den elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. Den kræver at stereotyperne 'Modelelement' eller 'Concept' fra FDA-profilen er anvendt. Fordelen ift. at anvende rapportskabeloner er at tomme felter ikke udskrives, hvilket øger rapportens læsevenlighed.
+Denne metode danner et HTML-dokument der viser metadata for modellen og dens elementer. Der indgår ikke diagrammer, så disse bør vedlægges seperat. Rapporten udskriver udelukkede felter der er udfyldte. Den kræver at stereotyperne 'Modelelement' eller 'Concept' fra FDA-profilen er anvendt. Fordelen ift. at anvende rapportskabeloner er at tomme felter ikke udskrives, hvilket øger rapportens læsevenlighed.
 
 Version 13:
 1)	Højreklik på pakken (modellen) i Project Browser
