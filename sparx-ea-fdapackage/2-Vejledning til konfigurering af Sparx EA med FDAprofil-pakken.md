@@ -12,6 +12,7 @@ Sådan konfigurerer du Sparx Enterprise Architect med MDG-teknologi samt anbefal
       1.	I version 13: Klik CONFIGURE | Manage Technology | Advanced...
       2.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
       3.    I version 15: Klik Manage-Tech (under SPECIALIZE | Technologies) | Advanced
+      4.    I version 16: Klik SPECIALIZE | Manage Technology | Advanced...
 3.	Klik Add  
 4.	Vælg Add URL...
 5.	Indsæt denne sti: https://data.gov.dk/tool/SparxMDG/FDAprofil-MDG.xml  
@@ -24,6 +25,7 @@ NOTE: MDG-filer gemmes lokalt på maskinen her (og kan slettes manuelt herfra og
 1.	Åbn menuen for MDG Technologies
       1.	I version 13: Klik CONFIGURE | Manage Technology
       2.	I version 14: Klik Manage (under SPECIALIZE | Technologies) | Advanced
+      3.	I version 16: Klik SPECIALIZE | Manage Technology
 2.	Klik None og sæt et flueben ud for teknologierne FDAprofil,  samt evt. Basic UML 2 Technology og andre teknologier der anvendes 
 3.	Klik OK
 
