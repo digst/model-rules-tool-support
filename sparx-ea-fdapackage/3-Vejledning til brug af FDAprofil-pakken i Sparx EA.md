@@ -131,6 +131,13 @@ Version 14:
 4)	Angiv filnavn og placering
 5)	Klik Export
 
+Version 16:
+1)	Klik på pakken (modellen) i Project Browser
+2)	Klik på fanen Publish | Publish As...
+   		under XML Type: vælg UML 2.5 (XMI 2.5.1)
+4)	Angiv filnavn og placering
+5)	Klik Export
+
 ## Importer UML-model (i xmi-format)
 Følg disse trin for at importere en UML-model (i xmi-format) til et eksisterende EA-projekt
 
