@@ -74,7 +74,7 @@ Nu er du klar til at tilføje modelelementer og angive metadata
 2.	Udfyld de nødvendige tags på elementerne (klasser, associationsender, attributter, og objekter). <br>
 	1.	I version 13 og 14: Klik på det pågældende element og udfyld de relevante tag values i ‘Tagged Values’-vinduet <br>
 	2.	I version 16: Klik på det pågældende element og udfyld de relevante tag values i ‘Properties’-vinduet under fanen Elements, hvor tag values findes under Concept-fanen <br>	 	
-4.	Udfyld de nødvendige tags på modellen (pakken). Klik på den pågældende pakke og udfyld de relevante tag values i ‘Tagged Values’-vinduet (i v.16 under Properties-Elements-Concept som ved forrige trin)
+4.	Udfyld de nødvendige tags på modellen (pakken). Klik på den pågældende pakke og udfyld de relevante tag values i ‘Tagged Values’-vinduet (i v.16 under Properties-Elements-Concept som ved forrige trin). <br>
 Har du installeret FDAprofil-dialogboks-tilføjelsen anvender man blot genvejen Ctrl+Q for at åbne en mere brugervenlig dialogboks til indtastning af tagged values.
 
 Har man hverken installeret FDAprofil Workspace-layoutet eller FDA-profildialogboksen
