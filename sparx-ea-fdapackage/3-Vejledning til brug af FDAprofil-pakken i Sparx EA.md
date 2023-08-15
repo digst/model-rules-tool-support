@@ -74,7 +74,7 @@ Nu er du klar til at tilføje modelelementer og angive metadata
 2.	Udfyld de nødvendige tags på elementerne (klasser, associationsender, attributter, og objekter). <br>
 	1.	I version 13 og 14: Klik på det pågældende element og udfyld de relevante tag values i ‘Tagged Values’-vinduet <br>
 	2.	I version 16: Klik på det pågældende element og udfyld de relevante tag values i ‘Properties’-vinduet under fanen Elements, hvor tag values findes under Concept-fanen <br>	 	
-4.	Udfyld de nødvendige tags på modellen (pakken). Klik på den pågældende pakke og udfyld de relevante tag values i ‘Tagged Values’-vinduet (i v.16 under Properties-Elements-Concept som ved forrige trin). <br>
+3.	Udfyld de nødvendige tags på modellen (pakken). Klik på den pågældende pakke og udfyld de relevante tag values i ‘Tagged Values’-vinduet (i v.16 under Properties-Elements-Concept som ved forrige trin). <br>
 Har du installeret FDAprofil-dialogboks-tilføjelsen anvender man blot genvejen Ctrl+Q for at åbne en mere brugervenlig dialogboks til indtastning af tagged values.
 
 Har man hverken installeret FDAprofil Workspace-layoutet eller FDA-profildialogboksen
@@ -109,7 +109,6 @@ Version 16:
 	
 ### Udskriv diagrammer til billedfiler
 
-Version 13:
 1)	Åben diagrammet
 2)	Klik på fanen Publish
 3)	Klik Save Image (i v. 16: Save) | Save to File
@@ -157,6 +156,13 @@ Version 14:
 4)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
 5)	Klik på Import
 
+Version 16:
+1)	Klik Publish|Import XMI|Import XMI File
+2)	Vælg placering af modellen (ud for Package)
+3)	Naviger hen til den pågældende xmi-fil der skal importeres (ud for Filename)
+4)	(sæt evt. flueben i Strip GUIDs – hvis root node fejlbesked forekommer)
+5)	Klik på Import
+
 ## Genbrug modelelementer
 Følg disse trin for at genbruge et eller flere elementer fra en importeret UML-model
 1.	Naviger hen til den relevante model (pakke) i Project Browseren der skal genbruges fra
@@ -164,12 +170,11 @@ Følg disse trin for at genbruge et eller flere elementer fra en importeret UML-
 3.	Højreklik på de valgte elementer og vælg: 
 
 Version 13:
-Copy/Paste > Copy to Clipboard > Full Structure for Duplication 
-4.	Naviger hen til den relevante model (pakke) i Project Browseren hvor elementerne skal genbruges
-5.	Højreklik på pakken og vælg: 
-
-Version 13:
 Copy / Paste > Paste Element(s) from Clipboard 
+
+Version 16
+Copy to Clipboard > Full Structure for Duplication 
+
 Elementet duplikeres og kan genbruges til en bestemt anvendelse, men identifikatoren (URIen) gør det muligt at opnå sporbarhed på tværs af organisationer og anvendte modelleringsværktøjer.
 
 ## Masseopdatering af elementer
