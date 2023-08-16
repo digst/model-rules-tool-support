@@ -199,7 +199,7 @@ Sådan anvendes masseopdateringsfunktionerne:
 # 2) Vejledning til csv-import af begrebsliste til Sparx Enterprise Architect
 Følgende vejledning forudsætter at Projektskabelonen anvendes, eller at du har tilknyttet MDG-teknologien og referencedata til dit projekt. 
 Anvend skabelon til csv-import. Indholdet af Begrebsliste DA eller Begrebsliste DA+EN kopieres med copy+paste ind i skabelonen. Det er ok, hvis der er felter der er uudfyldte og/eller det kun er den danske del (og den sprogneutrale proveniensdel) der er udfyldte.  Evt. uudfyldte rækker slettes dog, da de eller bliver til elementer (uden) data i Sparx EA.
-Begrebslisten skalt gemmes i en fil af typen CSV (semikolonsepareret), som skal have UTF-8 kodning for at de danske specialtegn ‘æøå’ kan bibeholdes. Da regnearksprogrammer (oftest) ikke kan gemme i denne kodning, er det være nødvendigt at ændre kodning i en teksteditor.
+Begrebslisten skal gemmes i en fil af typen CSV (semikolonsepareret), som skal have UTF-8 kodning for at de danske specialtegn ‘æøå’ kan bibeholdes. Da regnearksprogrammer (oftest) ikke kan gemme i denne kodning, er det være nødvendigt at ændre kodning i en teksteditor.
 
 Bruger du Microsoft Excel (version 2010) gør du det således:
 1.	Klik Filer
@@ -212,7 +212,7 @@ Dernæst gør du følgende i Notesblok (eller anden plain text-editor):
 2.	Vælg Gem som… og klik valglisten “Kodning” nederst i dialogboksen og vælg UTF-8. 
 3.	Giv filen et nyt navn
 
-Til sidst gør du følgende i Sparx EA (version 13 & 14):
+Til sidst gør du følgende i Sparx EA (version 13, 14 og 16):
 1.	Åbn projektskabelonen
 2.	Vælg den pakke hvortil begreberne skal importeres i Project Browseren
 3.	Klik PUBLISH | CSV
