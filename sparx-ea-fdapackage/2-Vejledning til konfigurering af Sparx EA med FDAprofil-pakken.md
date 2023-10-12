@@ -38,7 +38,7 @@ https://docs.google.com/document/d/14oSR_QnLja8LuUbpsNE2FnV-22CK-TzNG1xqwIlp6Jo/
 # Import af stylesheet til HTML-modelrapport
 1. Hent stylesheet ([FDA-Modelrapport-HTML.xsl](https://github.com/digst/model-rules-tool-support/blob/master/sparx-ea-fdapackage/FDA-Modelrapport-HTML.xsl)) fra dette repositorie, således
       1.	Følg linket til stylesheetet
-      2.	I toppanelet til stylesheetet (den grå sektion lige ovenfor koden) klikker du på på download-ikonet.
+      2.	I toppanelet til stylesheetet (den grå sektion lige ovenfor koden) klikker du på på download-ikonet
       3.	Stylesheetet er nu downloadet til din computer som en xsl-fil
 2. I Sparx: Find Resources-vinduet (ofte bag Project Browser, eller kan vælges Window-manue øverst til venstre)
 3. Højreklik på Stylesheets
