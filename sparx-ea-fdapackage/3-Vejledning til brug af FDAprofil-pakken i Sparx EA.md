@@ -214,7 +214,7 @@ Dernæst gør du følgende i Notesblok (eller anden plain text-editor):
 
 Til sidst gør du følgende i Sparx EA (version 13, 14 og 16):
 1.	Åbn projektskabelonen
-2.	Vælg den pakke hvortil begreberne skal importeres i Project Browseren
+2.	Vælg den pakke hvortil begreberne skal importeres i Project Browseren (skal være en model ikke en root node)
 3.	Klik PUBLISH | CSV
 4.	Klik CSV Import/Export
 5.	Ved Specification vælg den begrebslisteskabelon du bruger, fx Begrebslisteskabelon_v0.10.0
